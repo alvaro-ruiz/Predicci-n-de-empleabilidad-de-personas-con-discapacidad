@@ -1,0 +1,20 @@
+{
+    "umbral_evaluado": 0.43000000000000005,
+    "genero": {
+        "tasa_seleccion_hombres": 0.48711943793911006,
+        "tasa_seleccion_mujeres": 0.504424778761062,
+        "disparate_impact_ratio": 1.0355258679373724,
+        "cumple_regla_cuatro_quintos": true,
+        "recall_hombres": 0.7818181818181819,
+        "recall_mujeres": 0.8297872340425532,
+        "fpr_hombres": 0.38485804416403785,
+        "fpr_mujeres": 0.41899441340782123
+    },
+    "edad": {
+        "tasa_seleccion_menores_50": 0.5575916230366492,
+        "tasa_seleccion_seniors": 0.448692152917505,
+        "disparate_impact_ratio": 0.8046967249506428,
+        "recall_menores_50": 0.8378378378378378,
+        "recall_seniors": 0.7634408602150538
+    }
+}

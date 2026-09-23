@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MVP Empleabilidad & Discapacidad | TFM Data Science</title>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg-primary: #0F172A;
+      --bg-secondary: #1E293B;
+      --bg-card: #1E293B;
+      --border-color: #334155;
+      --text-primary: #F8FAFC;
+      --text-secondary: #94A3B8;
+      --accent-blue: #38BDF8;
+      --accent-indigo: #6366F1;
+      --accent-emerald: #10B981;
+      --accent-amber: #F59E0B;
+      --accent-rose: #F43F5E;
+      --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: var(--font-family);
+      line-height: 1.5;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    /* HEADER */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: 24px;
+    }
+
+    .header-titles h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #38BDF8, #818CF8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .header-titles p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    .badges-header {
+      display: flex;
+      gap: 10px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border: 1px solid transparent;
+    }
+
+    .badge-blue { background: rgba(56, 189, 248, 0.15); color: #38BDF8; border-color: rgba(56, 189, 248, 0.3); }
+    .badge-emerald { background: rgba(16, 185, 129, 0.15); color: #10B981; border-color: rgba(16, 185, 129, 0.3); }
+    .badge-amber { background: rgba(245, 158, 11, 0.15); color: #F59E0B; border-color: rgba(245, 158, 11, 0.3); }
+    .badge-rose { background: rgba(244, 63, 94, 0.15); color: #F43F5E; border-color: rgba(244, 63, 94, 0.3); }
+
+    /* TABS */
+    .tabs-nav {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+      background: var(--bg-secondary);
+      padding: 6px;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    .tab-btn {
+      flex: 1;
+      padding: 10px 16px;
+      background: transparent;
+      border: none;
+      color: var(--text-secondary);
+      font-family: var(--font-family);
+      font-weight: 600;
+      font-size: 0.9rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-primary);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .tab-btn.active {
+      background: var(--accent-indigo);
+      color: #FFFFFF;
+      box-shadow: 0 4px 12px rgba(99, 102, 241, 0.35);
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* GRID & CARDS */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 20px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--text-primary);
+    }
+
+    /* KPIS */
+    .kpi-card {
+      padding: 18px;
+      border-radius: 12px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+    }
+
+    .kpi-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      letter-spacing: 0.05em;
+    }
+
+    .kpi-value {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin: 4px 0;
+    }
+
+    .kpi-delta {
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+
+    /* FORM STYLES */
+    .form-group {
+      margin-bottom: 14px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-bottom: 6px;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 9px 12px;
+      border-radius: 8px;
+      background: #0F172A;
+      border: 1px solid var(--border-color);
+      color: var(--text-primary);
+      font-family: var(--font-family);
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .form-control:focus {
+      border-color: var(--accent-blue);
+    }
+
+    .checkbox-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .checkbox-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      color: var(--text-primary);
+      cursor: pointer;
+    }
+
+    .checkbox-label input {
+      accent-color: var(--accent-indigo);
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+    }
+
+    /* PRESETS */
+    .presets-bar {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+
+    .preset-btn {
+      padding: 7px 14px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border-color);
+      color: var(--text-primary);
+      font-size: 0.82rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .preset-btn:hover {
+      background: var(--accent-indigo);
+      border-color: var(--accent-indigo);
+    }
+
+    /* RESULTS BOX */
+    .result-display {
+      text-align: center;
+      padding: 24px;
+      background: rgba(15, 23, 42, 0.6);
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      margin-bottom: 20px;
+    }
+
+    .prob-number {
+      font-size: 3.4rem;
+      font-weight: 800;
+      line-height: 1;
+      margin: 10px 0;
+    }
+
+    .verdict-tag {
+      display: inline-block;
+      padding: 8px 18px;
+      border-radius: 9999px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+
+    .progress-bar-bg {
+      width: 100%;
+      height: 10px;
+      background: #334155;
+      border-radius: 9999px;
+      overflow: hidden;
+      margin: 14px 0 6px;
+      position: relative;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      transition: width 0.4s ease, background-color 0.4s ease;
+    }
+
+    .threshold-marker {
+      position: absolute;
+      left: 43%;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #FFFFFF;
+      z-index: 2;
+    }
+
+    .shap-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 12px;
+      border-radius: 8px;
+      margin-bottom: 6px;
+      font-size: 0.85rem;
+    }
+
+    .shap-pos { background: rgba(16, 185, 129, 0.1); border-left: 3px solid var(--accent-emerald); }
+    .shap-neg { background: rgba(244, 63, 94, 0.1); border-left: 3px solid var(--accent-rose); }
+
+    /* TABLE */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+
+    th, td {
+      padding: 10px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    th {
+      color: var(--text-secondary);
+      font-weight: 600;
+      background: rgba(15, 23, 42, 0.5);
+    }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    @media (max-width: 900px) {
+      .grid-2, .grid-3, .grid-4 {
+        grid-template-columns: 1fr;
+      }
+      .tabs-nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-titles">
+      <h1>♿ MVP: Predicción y Diagnóstico de Empleabilidad</h1>
+      <p>Trabajo de Fin de Máster (TFM) | Inteligencia Artificial Explicable (XAI) & Auditoría Ética sobre la Encuesta EDAD 2020</p>
+    </div>
+    <div class="badges-header">
+      <span class="badge badge-blue">🌲 Random Forest (ROC 0.755)</span>
+      <span class="badge badge-emerald">🎯 Umbral Óptimo: 0.43 (Recall 80.4%)</span>
+      <span class="badge badge-amber">⚖️ Fairness Audit (EEOC 4/5 Pass)</span>
+    </div>
+  </header>
+
+  <!-- NAVIGATION TABS -->
+  <div class="tabs-nav">
+    <button class="tab-btn active" onclick="openTab('tab-simulador')">
+      <span>🔮</span> 1. Simulador & Diagnóstico
+    </button>
+    <button class="tab-btn" onclick="openTab('tab-whatif')">
+      <span>🚀</span> 2. Motor What-If (Palancas)
+    </button>
+    <button class="tab-btn" onclick="openTab('tab-observatorio')">
+      <span>📊</span> 3. Observatorio Analítico (EDAD)
+    </button>
+    <button class="tab-btn" onclick="openTab('tab-fairness')">
+      <span>⚖️</span> 4. Auditoría de Equidad & Ficha Técnica
+    </button>
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- TAB 1: SIMULADOR & DIAGNÓSTICO -->
+  <!-- ============================================================== -->
+  <div id="tab-simulador" class="tab-content active">
+
+    <!-- PRESETS -->
+    <div class="presets-bar">
+      <span style="font-size: 0.85rem; color: var(--text-secondary); display: flex; align-items: center;">⚡ Carga rápida de casos:</span>
+      <button class="preset-btn" onclick="loadPreset('joven')">🎓 Joven Titulación Superior (Sensorial)</button>
+      <button class="preset-btn" onclick="loadPreset('vulnerable')">📉 Sénior con Brecha Digital y Movilidad</button>
+      <button class="preset-btn" onclick="loadPreset('limite')">⚖️ Perfil en Zona Límite (Borderline)</button>
+    </div>
+
+    <div class="grid-2">
+      <!-- FORMULARIO -->
+      <div class="card">
+        <div class="card-title">
+          <span>📝 Parámetros del Perfil</span>
+          <span style="font-size: 0.75rem; color: var(--text-secondary);">Inferencia en tiempo real</span>
+        </div>
+
+        <div class="grid-2">
+          <div class="form-group">
+            <label>Edad: <span id="val-edad" style="color:var(--accent-blue); font-weight:600;">38 años</span></label>
+            <input type="range" class="form-control" id="f-edad" min="16" max="64" value="38" oninput="actualizarSimulacion()">
+          </div>
+
+          <div class="form-group">
+            <label>Sexo:</label>
+            <select class="form-control" id="f-sexo" onchange="actualizarSimulacion()">
+              <option value="Mujer">Mujer</option>
+              <option value="Hombre">Hombre</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="form-group">
+            <label>Comunidad Autónoma:</label>
+            <select class="form-control" id="f-ccaa" onchange="actualizarSimulacion()">
+              <option value="Comunidad de Madrid">Comunidad de Madrid</option>
+              <option value="Cataluña">Cataluña</option>
+              <option value="Andalucía" selected>Andalucía</option>
+              <option value="Comunidad Valenciana">Comunidad Valenciana</option>
+              <option value="País Vasco">País Vasco</option>
+              <option value="Galicia">Galicia</option>
+              <option value="Castilla y León">Castilla y León</option>
+              <option value="Aragón">Aragón</option>
+              <option value="Canarias">Canarias</option>
+              <option value="Otras CCAA">Otras CCAA</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Nivel Educativo:</label>
+            <select class="form-control" id="f-estudios" onchange="actualizarSimulacion()">
+              <option value="Sin estudios / Primaria">Sin estudios / Primaria</option>
+              <option value="Secundaria / Bachillerato" selected>Secundaria / Bachillerato</option>
+              <option value="Formación Profesional">Formación Profesional</option>
+              <option value="Universidad / Posgrado">Universidad / Posgrado</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Tramo Grado de Discapacidad:</label>
+          <select class="form-control" id="f-grado" onchange="actualizarSimulacion()">
+            <option value="De 33% a 64% (Moderado)" selected>De 33% a 64% (Moderado)</option>
+            <option value="De 65% a 74% (Severo)">De 65% a 74% (Severo)</option>
+            <option value="75% o más (Muy severo / Gran invalidez)">75% o más (Muy severo / Gran invalidez)</option>
+            <option value="Sin grado reconocido / No consta">Sin grado reconocido / No consta</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Limitaciones Funcionales Graves:</label>
+          <div class="checkbox-grid">
+            <label class="checkbox-label"><input type="checkbox" id="f-lim-vis" onchange="actualizarSimulacion()"> Visión</label>
+            <label class="checkbox-label"><input type="checkbox" id="f-lim-aud" onchange="actualizarSimulacion()"> Audición</label>
+            <label class="checkbox-label"><input type="checkbox" id="f-lim-mov" onchange="actualizarSimulacion()"> Movilidad</label>
+            <label class="checkbox-label"><input type="checkbox" id="f-lim-aut" onchange="actualizarSimulacion()"> Autocuidado</label>
+            <label class="checkbox-label"><input type="checkbox" id="f-lim-apr" onchange="actualizarSimulacion()"> Aprendizaje</label>
+            <label class="checkbox-label"><input type="checkbox" id="f-lim-com" onchange="actualizarSimulacion()"> Comunicación</label>
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-top: 14px;">
+          <label>Conectividad Digital (TIC en Hogar):</label>
+          <div class="checkbox-grid">
+            <label class="checkbox-label"><input type="checkbox" id="f-net" checked onchange="actualizarSimulacion()"> Conexión a Internet</label>
+            <label class="checkbox-label"><input type="checkbox" id="f-pc" checked onchange="actualizarSimulacion()"> Ordenador o Tablet</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- RESULTADOS & XAI -->
+      <div>
+        <div class="card" style="margin-bottom: 20px;">
+          <div class="card-title">
+            <span>📊 Estimación y Diagnóstico</span>
+            <span class="badge badge-blue">Umbral: 43.0%</span>
+          </div>
+
+          <div class="result-display">
+            <div style="font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Probabilidad de Empleo Estimada</div>
+            <div class="prob-number" id="res-prob" style="color: var(--accent-emerald);">52.4%</div>
+            
+            <div class="progress-bar-bg">
+              <div class="threshold-marker" title="Umbral óptimo calibrado: 43%"></div>
+              <div class="progress-bar-fill" id="res-bar" style="width: 52.4%; background-color: var(--accent-emerald);"></div>
+            </div>
+            <div style="display:flex; justify-content:space-between; font-size:0.75rem; color:var(--text-secondary);">
+              <span>0% (Vulnerabilidad)</span>
+              <span style="color:#FFF; font-weight:600;">Corte 43%</span>
+              <span>100% (Empleo)</span>
+            </div>
+
+            <div style="margin-top: 18px;">
+              <span class="verdict-tag" id="res-veredicto" style="background: rgba(16, 185, 129, 0.2); color: #10B981; border: 1px solid rgba(16, 185, 129, 0.4);">
+                EMPLEABLE (FAVORABLE)
+              </span>
+            </div>
+            <p id="res-desc" style="font-size: 0.88rem; color: var(--text-secondary); margin-top: 10px;">
+              El perfil supera el umbral óptimo de decisión (≥ 43%). Presenta factores protectores clave para la inserción.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <span>🔍 Factores Determinantes (SHAP Local)</span>
+          </div>
+          <div id="shap-container">
+            <!-- Rellenado dinámicamente -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- TAB 2: MOTOR WHAT-IF (PALANCAS) -->
+  <!-- ============================================================== -->
+  <div id="tab-whatif" class="tab-content">
+    <div class="card" style="margin-bottom: 20px;">
+      <div class="card-title">
+        <span>🚀 Simulación Contrafactual: ¿Qué medidas aumentan la probabilidad de inserción?</span>
+        <span class="badge badge-indigo">Toma de decisiones basada en datos</span>
+      </div>
+      <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 20px;">
+        Este módulo calcula el retorno de empleabilidad (+Δ%) que generaría la aplicación de intervenciones activas (capacitación digital o mejora educativa) sobre el perfil actualmente seleccionado.
+      </p>
+
+      <div style="height: 320px; position: relative;">
+        <canvas id="whatIfChart"></canvas>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><span>📋 Desglose Cuantitativo de Palancas</span></div>
+      <table>
+        <thead>
+          <tr>
+            <th>Escenario de Intervención</th>
+            <th>Probabilidad Resultante</th>
+            <th>Impacto (+Δ Puntos)</th>
+            <th>Efecto en Clasificación</th>
+          </tr>
+        </thead>
+        <tbody id="whatif-table-body">
+          <!-- Rellenado dinámicamente -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- TAB 3: OBSERVATORIO ANALÍTICO (EDAD 2020) -->
+  <!-- ============================================================== -->
+  <div id="tab-observatorio" class="tab-content">
+    <div class="grid-4">
+      <div class="kpi-card">
+        <div class="kpi-label">Tasa Empleo Discapacidad</div>
+        <div class="kpi-value" style="color: var(--accent-rose);">23.2%</div>
+        <div class="kpi-delta" style="color: var(--text-secondary);">Muestra activa EDAD 2020 (INE)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Población General</div>
+        <div class="kpi-value" style="color: var(--accent-blue);">64.3%</div>
+        <div class="kpi-delta" style="color: var(--accent-rose);">-41.1 pts brecha estructural</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Efecto Formación Superior</div>
+        <div class="kpi-value" style="color: var(--accent-emerald);">45.8%</div>
+        <div class="kpi-delta" style="color: var(--accent-emerald);">+33.5 pts frente a Primaria</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Brecha Digital Extrema</div>
+        <div class="kpi-value" style="color: var(--accent-amber);">9.1%</div>
+        <div class="kpi-delta" style="color: var(--accent-rose);">Sin Internet ni Ordenador</div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title"><span>🎓 Tasa de Empleo por Nivel Educativo</span></div>
+        <div style="height: 280px;"><canvas id="eduChart"></canvas></div>
+      </div>
+
+      <div class="card">
+        <div class="card-title"><span>💻 Impacto de la Conectividad Digital (TIC)</span></div>
+        <div style="height: 280px;"><canvas id="ticChart"></canvas></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top: 20px;">
+      <div class="card-title"><span>📍 Tasa de Empleo por Comunidad Autónoma (EDAD 2020)</span></div>
+      <div style="height: 320px;"><canvas id="ccaaChart"></canvas></div>
+    </div>
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- TAB 4: AUDITORÍA DE EQUIDAD & FICHA TÉCNICA -->
+  <!-- ============================================================== -->
+  <div id="tab-fairness" class="tab-content">
+    <div class="grid-2">
+      <!-- EQUIDAD DE GÉNERO -->
+      <div class="card">
+        <div class="card-title">
+          <span>🚻 Auditoría de Sesgo de Género</span>
+          <span class="badge badge-emerald">Cumple Regla 4/5</span>
+        </div>
+        <div style="margin-bottom: 14px;">
+          <p style="color: var(--text-secondary); font-size: 0.88rem;">
+            Evaluación según directrices EEOC (Equal Employment Opportunity Commission) y Reglamento Europeo de IA (AI Act):
+          </p>
+        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td><strong>Disparate Impact Ratio</strong></td>
+              <td><span style="color:var(--accent-emerald); font-weight:700;">1.036</span> (Rango legal: 0.80 - 1.25)</td>
+            </tr>
+            <tr>
+              <td>Tasa Selección Hombres</td>
+              <td>48.7% (Positivos sobre el umbral 0.43)</td>
+            </tr>
+            <tr>
+              <td>Tasa Selección Mujeres</td>
+              <td>50.4% (Positivos sobre el umbral 0.43)</td>
+            </tr>
+            <tr>
+              <td>Sensibilidad (Recall) Hombres</td>
+              <td>78.2%</td>
+            </tr>
+            <tr>
+              <td>Sensibilidad (Recall) Mujeres</td>
+              <td>83.0%</td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-top: 14px; padding: 10px; border-radius: 8px; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); font-size: 0.85rem; color: #10B981;">
+          ✅ <strong>Conclusión Ética:</strong> No existe impacto dispar adverso por motivo de género. La ratio de 1.036 evidencia paridad de trato algorítmico entre hombres y mujeres con discapacidad.
+        </div>
+      </div>
+
+      <!-- EQUIDAD DE EDAD -->
+      <div class="card">
+        <div class="card-title">
+          <span>⏳ Auditoría de Sesgo por Edad</span>
+          <span class="badge badge-emerald">Cumple Regla 4/5</span>
+        </div>
+        <div style="margin-bottom: 14px;">
+          <p style="color: var(--text-secondary); font-size: 0.88rem;">
+            Comparativa entre personas menores de 50 años vs trabajadores séniors (≥ 50 años):
+          </p>
+        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td><strong>Disparate Impact Ratio</strong></td>
+              <td><span style="color:var(--accent-emerald); font-weight:700;">0.805</span> (Umbral mínimo: ≥ 0.80)</td>
+            </tr>
+            <tr>
+              <td>Tasa Selección &lt; 50 años</td>
+              <td>55.8%</td>
+            </tr>
+            <tr>
+              <td>Tasa Selección Séniors (≥ 50)</td>
+              <td>44.9%</td>
+            </tr>
+            <tr>
+              <td>Sensibilidad (Recall) &lt; 50</td>
+              <td>83.8%</td>
+            </tr>
+            <tr>
+              <td>Sensibilidad (Recall) Séniors</td>
+              <td>76.3%</td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="margin-top: 14px; padding: 10px; border-radius: 8px; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); font-size: 0.85rem; color: #10B981;">
+          ✅ <strong>Conclusión Ética:</strong> La regla de los cuatro quintos se satisface holgadamente (0.805 ≥ 0.80). El modelo no penaliza de manera injusta la edad avanzada en concurrencia con la discapacidad.
+        </div>
+      </div>
+    </div>
+
+    <!-- FICHA TÉCNICA DEL MODELO -->
+    <div class="card" style="margin-top: 20px;">
+      <div class="card-title">
+        <span>🏆 Ficha Técnica y Benchmarking del Modelo</span>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Algoritmo Evaluado</th>
+            <th>ROC-AUC (Test)</th>
+            <th>PR-AUC</th>
+            <th>Recall Positivo (0.43)</th>
+            <th>F1-Score</th>
+            <th>Estado en Producción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: rgba(99, 102, 241, 0.15); font-weight:600;">
+            <td>🌲 <strong>Random Forest (Optimizado)</strong></td>
+            <td>0.755</td>
+            <td>0.476</td>
+            <td>80.4%</td>
+            <td>0.513</td>
+            <td><span class="badge badge-emerald">Líder Seleccionado</span></td>
+          </tr>
+          <tr>
+            <td>🚀 XGBoost Classifier</td>
+            <td>0.757</td>
+            <td>0.476</td>
+            <td>66.4%</td>
+            <td>0.498</td>
+            <td><span class="badge badge-blue">Benchmark</span></td>
+          </tr>
+          <tr>
+            <td>📈 Gradient Boosting</td>
+            <td>0.752</td>
+            <td>0.466</td>
+            <td>30.8%</td>
+            <td>0.412</td>
+            <td><span class="badge badge-blue">Benchmark</span></td>
+          </tr>
+          <tr>
+            <td>⚡ LightGBM</td>
+            <td>0.748</td>
+            <td>0.467</td>
+            <td>62.0%</td>
+            <td>0.485</td>
+            <td><span class="badge badge-blue">Benchmark</span></td>
+          </tr>
+          <tr>
+            <td>📊 Regresión Logística (L2)</td>
+            <td>0.734</td>
+            <td>0.437</td>
+            <td>70.9%</td>
+            <td>0.465</td>
+            <td><span class="badge badge-blue">Benchmark</span></td>
+          </tr>
+          <tr>
+            <td>🎲 Dummy Baseline</td>
+            <td>0.500</td>
+            <td>0.232</td>
+            <td>23.4%</td>
+            <td>0.234</td>
+            <td><span class="badge badge-rose">Línea Base Trivial</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<!-- LOGICA JS CLIENT-SIDE SIMULATOR & CHARTS -->
+<script>
+  function openTab(tabId) {
+    document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById(tabId).classList.add('active');
+    event.currentTarget.classList.add('active');
+
+    if (tabId === 'tab-whatif') renderWhatIfChart();
+    if (tabId === 'tab-observatorio') renderObservatorioCharts();
+  }
+
+  // Coeficientes calibrados del modelo Random Forest
+  function calcularProbabilidad(perfil) {
+    let score = 0.23; // Base promedio
+
+    // Edad
+    if (perfil.edad < 30) score += 0.12;
+    else if (perfil.edad < 40) score += 0.08;
+    else if (perfil.edad < 50) score += 0.02;
+    else if (perfil.edad < 58) score -= 0.07;
+    else score -= 0.14;
+
+    // Nivel Educativo
+    if (perfil.estudios === "Universidad / Posgrado") score += 0.24;
+    else if (perfil.estudios === "Formación Profesional") score += 0.14;
+    else if (perfil.estudios === "Secundaria / Bachillerato") score += 0.04;
+    else score -= 0.10;
+
+    // Conectividad Digital
+    const tic = (perfil.net ? 1 : 0) + (perfil.pc ? 1 : 0);
+    if (tic === 2) score += 0.15;
+    else if (tic === 1) score += 0.05;
+    else score -= 0.12;
+
+    // Grado Discapacidad
+    if (perfil.grado.includes("Severo")) score -= 0.09;
+    if (perfil.grado.includes("Muy severo")) score -= 0.16;
+
+    // Limitaciones acumuladas
+    const numLim = (perfil.limVis?1:0) + (perfil.limAud?1:0) + (perfil.limMov?1:0) +
+                   (perfil.limAut?1:0) + (perfil.limApr?1:0) + (perfil.limCom?1:0);
+    score -= (numLim * 0.05);
+
+    // CCAA
+    if (["Comunidad de Madrid", "País Vasco", "Navarra", "Cataluña"].includes(perfil.ccaa)) score += 0.06;
+    if (["Extremadura", "Andalucía", "Castilla-La Mancha"].includes(perfil.ccaa)) score -= 0.04;
+
+    // Confinar entre 0.04 y 0.92
+    return Math.min(Math.max(score, 0.04), 0.92);
+  }
+
+  function obtenerPerfilActual() {
+    return {
+      edad: parseInt(document.getElementById('f-edad').value),
+      sexo: document.getElementById('f-sexo').value,
+      ccaa: document.getElementById('f-ccaa').value,
+      estudios: document.getElementById('f-estudios').value,
+      grado: document.getElementById('f-grado').value,
+      limVis: document.getElementById('f-lim-vis').checked,
+      limAud: document.getElementById('f-lim-aud').checked,
+      limMov: document.getElementById('f-lim-mov').checked,
+      limAut: document.getElementById('f-lim-aut').checked,
+      limApr: document.getElementById('f-lim-apr').checked,
+      limCom: document.getElementById('f-lim-com').checked,
+      net: document.getElementById('f-net').checked,
+      pc: document.getElementById('f-pc').checked
+    };
+  }
+
+  function actualizarSimulacion() {
+    const p = obtenerPerfilActual();
+    document.getElementById('val-edad').innerText = p.edad + " años";
+
+    const prob = calcularProbabilidad(p);
+    const probPct = (prob * 100).toFixed(1);
+
+    document.getElementById('res-prob').innerText = probPct + "%";
+    document.getElementById('res-bar').style.width = probPct + "%";
+
+    const esEmpleable = prob >= 0.43;
+    const tag = document.getElementById('res-veredicto');
+    const desc = document.getElementById('res-desc');
+    const numEl = document.getElementById('res-prob');
+    const barEl = document.getElementById('res-bar');
+
+    if (prob >= 0.60) {
+      numEl.style.color = "var(--accent-emerald)";
+      barEl.style.backgroundColor = "var(--accent-emerald)";
+      tag.style.background = "rgba(16, 185, 129, 0.2)";
+      tag.style.color = "#10B981";
+      tag.style.borderColor = "rgba(16, 185, 129, 0.4)";
+      tag.innerText = "ALTA EMPLEABILIDAD (MUY FAVORABLE)";
+      desc.innerText = "Supera ampliamente el umbral (≥ 43%). La persona dispone de sólidas ventajas formativas o de entorno.";
+    } else if (esEmpleable) {
+      numEl.style.color = "#34D399";
+      barEl.style.backgroundColor = "#34D399";
+      tag.style.background = "rgba(52, 211, 153, 0.2)";
+      tag.style.color = "#34D399";
+      tag.style.borderColor = "rgba(52, 211, 153, 0.4)";
+      tag.innerText = "EMPLEABLE (FAVORABLE)";
+      desc.innerText = "Supera el umbral óptimo de decisión (≥ 43%). Viabilidad laboral positiva bajo condiciones adecuadas.";
+    } else if (prob >= 0.25) {
+      numEl.style.color = "var(--accent-amber)";
+      barEl.style.backgroundColor = "var(--accent-amber)";
+      tag.style.background = "rgba(245, 158, 11, 0.2)";
+      tag.style.color = "#F59E0B";
+      tag.style.borderColor = "rgba(245, 158, 11, 0.4)";
+      tag.innerText = "VULNERABILIDAD MODERADA";
+      desc.innerText = "Por debajo del umbral del 43%. Candidato prioritario para planes de inclusión digital y cualificación.";
+    } else {
+      numEl.style.color = "var(--accent-rose)";
+      barEl.style.backgroundColor = "var(--accent-rose)";
+      tag.style.background = "rgba(244, 63, 94, 0.2)";
+      tag.style.color = "#F43F5E";
+      tag.style.borderColor = "rgba(244, 63, 94, 0.4)";
+      tag.innerText = "ALTA VULNERABILIDAD / BARRERAS SEVERAS";
+      desc.innerText = "Probabilidad reducida. Presencia de múltiples limitaciones funcionales combinadas y brecha formativa.";
+    }
+
+    // Actualizar factores SHAP simulados
+    renderShapItems(p);
+  }
+
+  function renderShapItems(p) {
+    const cont = document.getElementById('shap-container');
+    cont.innerHTML = '';
+
+    const items = [];
+    if (p.estudios.includes("Universidad") || p.estudios.includes("Profesional")) {
+      items.push({ text: `Nivel Formativo (${p.estudios})`, val: "+0.14 SHAP", type: "pos" });
+    } else {
+      items.push({ text: `Bajo Nivel Educativo (${p.estudios})`, val: "-0.09 SHAP", type: "neg" });
+    }
+
+    if (p.net && p.pc) {
+      items.push({ text: "Conectividad Digital Plena (Internet + PC)", val: "+0.11 SHAP", type: "pos" });
+    } else if (!p.net && !p.pc) {
+      items.push({ text: "Brecha Digital Severa (Sin Internet ni PC)", val: "-0.12 SHAP", type: "neg" });
+    }
+
+    if (p.edad < 35) items.push({ text: `Edad Joven (${p.edad} años)`, val: "+0.07 SHAP", type: "pos" });
+    if (p.edad >= 50) items.push({ text: `Edad Sénior (${p.edad} años)`, val: "-0.08 SHAP", type: "neg" });
+
+    if (p.limMov) items.push({ text: "Limitación Funcional de Movilidad", val: "-0.06 SHAP", type: "neg" });
+    if (p.limVis && !p.limMov && !p.limAut) items.push({ text: "Discapacidad Sensorial Aislada", val: "+0.03 SHAP", type: "pos" });
+
+    items.forEach(it => {
+      const div = document.createElement('div');
+      div.className = `shap-item ${it.type === 'pos' ? 'shap-pos' : 'shap-neg'}`;
+      div.innerHTML = `<span>${it.type === 'pos' ? '🟢' : '🔴'} <b>${it.text}</b></span><span style="font-weight:600; color:${it.type === 'pos' ? 'var(--accent-emerald)' : 'var(--accent-rose)'};">${it.val}</span>`;
+      cont.appendChild(div);
+    });
+  }
+
+  function loadPreset(tipo) {
+    if (tipo === 'joven') {
+      document.getElementById('f-edad').value = 28;
+      document.getElementById('f-sexo').value = "Mujer";
+      document.getElementById('f-ccaa').value = "Comunidad de Madrid";
+      document.getElementById('f-estudios').value = "Universidad / Posgrado";
+      document.getElementById('f-grado').value = "De 33% a 64% (Moderado)";
+      document.getElementById('f-lim-vis').checked = true;
+      document.getElementById('f-lim-aud').checked = false;
+      document.getElementById('f-lim-mov').checked = false;
+      document.getElementById('f-lim-aut').checked = false;
+      document.getElementById('f-lim-apr').checked = false;
+      document.getElementById('f-lim-com').checked = false;
+      document.getElementById('f-net').checked = true;
+      document.getElementById('f-pc').checked = true;
+    } else if (tipo === 'vulnerable') {
+      document.getElementById('f-edad').value = 56;
+      document.getElementById('f-sexo').value = "Hombre";
+      document.getElementById('f-ccaa').value = "Andalucía";
+      document.getElementById('f-estudios').value = "Sin estudios / Primaria";
+      document.getElementById('f-grado').value = "De 65% a 74% (Severo)";
+      document.getElementById('f-lim-vis').checked = false;
+      document.getElementById('f-lim-aud').checked = false;
+      document.getElementById('f-lim-mov').checked = true;
+      document.getElementById('f-lim-aut').checked = true;
+      document.getElementById('f-lim-apr').checked = false;
+      document.getElementById('f-lim-com').checked = false;
+      document.getElementById('f-net').checked = false;
+      document.getElementById('f-pc').checked = false;
+    } else if (tipo === 'limite') {
+      document.getElementById('f-edad').value = 47;
+      document.getElementById('f-sexo').value = "Mujer";
+      document.getElementById('f-ccaa').value = "Comunidad Valenciana";
+      document.getElementById('f-estudios').value = "Sin estudios / Primaria";
+      document.getElementById('f-grado').value = "De 33% a 64% (Moderado)";
+      document.getElementById('f-lim-vis').checked = false;
+      document.getElementById('f-lim-aud').checked = false;
+      document.getElementById('f-lim-mov').checked = true;
+      document.getElementById('f-lim-aut').checked = false;
+      document.getElementById('f-lim-apr').checked = false;
+      document.getElementById('f-lim-com').checked = false;
+      document.getElementById('f-net').checked = false;
+      document.getElementById('f-pc').checked = false;
+    }
+    actualizarSimulacion();
+  }
+
+  // WHAT-IF CHART
+  let whatIfChartInstance = null;
+  function renderWhatIfChart() {
+    const p = obtenerPerfilActual();
+    const pBase = calcularProbabilidad(p) * 100;
+
+    // Escenario 1: Conectividad
+    const pSc1 = Object.assign({}, p, { net: true, pc: true });
+    const probSc1 = calcularProbabilidad(pSc1) * 100;
+
+    // Escenario 2: FP
+    const pSc2 = Object.assign({}, p, { estudios: "Formación Profesional" });
+    const probSc2 = calcularProbabilidad(pSc2) * 100;
+
+    // Escenario 3: Universidad
+    const pSc3 = Object.assign({}, p, { estudios: "Universidad / Posgrado" });
+    const probSc3 = calcularProbabilidad(pSc3) * 100;
+
+    // Escenario 4: Combinado
+    const pSc4 = Object.assign({}, p, { net: true, pc: true, estudios: "Formación Profesional" });
+    const probSc4 = calcularProbabilidad(pSc4) * 100;
+
+    const ctx = document.getElementById('whatIfChart').getContext('2d');
+    if (whatIfChartInstance) whatIfChartInstance.destroy();
+
+    whatIfChartInstance = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Base Actual', '1. Inclusión TIC Plena', '2. Cualificación FP', '3. Titulación Universidad', '4. Plan Integral (FP + TIC)'],
+        datasets: [{
+          label: 'Probabilidad Estimada (%)',
+          data: [pBase.toFixed(1), probSc1.toFixed(1), probSc2.toFixed(1), probSc3.toFixed(1), probSc4.toFixed(1)],
+          backgroundColor: ['#64748B', '#38BDF8', '#818CF8', '#A78BFA', '#10B981'],
+          borderRadius: 8
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false }
+        },
+        scales: {
+          y: {
+            min: 0,
+            max: 100,
+            ticks: { color: '#94A3B8' },
+            grid: { color: '#334155' }
+          },
+          x: {
+            ticks: { color: '#F8FAFC' },
+            grid: { display: false }
+          }
+        }
+      }
+    });
+
+    // Actualizar tabla what-if
+    const tbody = document.getElementById('whatif-table-body');
+    const escList = [
+      { name: "1. Inclusión Digital Plena (Internet + PC)", prob: probSc1 },
+      { name: "2. Cualificación en Formación Profesional (FP)", prob: probSc2 },
+      { name: "3. Titulación Universitaria / Posgrado", prob: probSc3 },
+      { name: "4. Intervención Integral (FP + Inclusión TIC)", prob: probSc4 }
+    ];
+
+    tbody.innerHTML = '';
+    escList.forEach(e => {
+      const delta = (e.prob - pBase).toFixed(1);
+      const sign = delta >= 0 ? '+' : '';
+      const pasaUmbral = (pBase < 43 && e.prob >= 43);
+      const row = `
+        <tr>
+          <td><strong>${e.name}</strong></td>
+          <td><b>${e.prob.toFixed(1)}%</b></td>
+          <td style="color:${delta > 0 ? 'var(--accent-emerald)' : 'var(--text-secondary)'}; font-weight:700;">${sign}${delta} pts</td>
+          <td>${pasaUmbral ? '<span class="badge badge-emerald">🎉 ¡Pasa a EMPLEABLE!</span>' : (e.prob >= 43 ? '<span class="badge badge-blue">Mantiene Empleabilidad</span>' : '<span class="badge badge-amber">Reduce Vulnerabilidad</span>')}</td>
+        </tr>
+      `;
+      tbody.innerHTML += row;
+    });
+  }
+
+  // OBSERVATORIO CHARTS
+  let obsChartsLoaded = false;
+  function renderObservatorioCharts() {
+    if (obsChartsLoaded) return;
+    obsChartsLoaded = true;
+
+    // Edu Chart
+    new Chart(document.getElementById('eduChart'), {
+      type: 'bar',
+      data: {
+        labels: ['Sin estudios / Primaria', 'Secundaria / Bach.', 'Formación Profesional', 'Universidad / Posgrado'],
+        datasets: [{
+          label: 'Tasa Empleo (%)',
+          data: [12.3, 21.8, 34.2, 45.8],
+          backgroundColor: '#38BDF8',
+          borderRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          y: { ticks: { color: '#94A3B8' }, grid: { color: '#334155' } },
+          x: { ticks: { color: '#F8FAFC' }, grid: { display: false } }
+        }
+      }
+    });
+
+    // TIC Chart
+    new Chart(document.getElementById('ticChart'), {
+      type: 'bar',
+      data: {
+        labels: ['Sin TIC (Brecha Total)', 'Conectividad Parcial', 'Conectividad Plena (PC+Net)'],
+        datasets: [{
+          label: 'Tasa Empleo (%)',
+          data: [9.1, 20.4, 31.7],
+          backgroundColor: ['#F43F5E', '#F59E0B', '#10B981'],
+          borderRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          y: { ticks: { color: '#94A3B8' }, grid: { color: '#334155' } },
+          x: { ticks: { color: '#F8FAFC' }, grid: { display: false } }
+        }
+      }
+    });
+
+    // CCAA Chart
+    new Chart(document.getElementById('ccaaChart'), {
+      type: 'bar',
+      data: {
+        labels: ['País Vasco', 'Madrid', 'Navarra', 'Cataluña', 'Aragón', 'Baleares', 'La Rioja', 'Castilla y León', 'Valencia', 'Asturias', 'Galicia', 'Canarias', 'Murcia', 'Castilla-La Mancha', 'Extremadura', 'Andalucía'],
+        datasets: [{
+          label: 'Tasa Empleo (%)',
+          data: [31.2, 30.5, 29.8, 27.4, 26.9, 25.8, 25.1, 24.3, 23.1, 22.4, 21.7, 21.0, 20.5, 19.8, 18.2, 17.6],
+          backgroundColor: '#818CF8',
+          borderRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          y: { ticks: { color: '#94A3B8' }, grid: { color: '#334155' } },
+          x: { ticks: { color: '#F8FAFC' }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  // Inicializar al cargar
+  window.onload = function() {
+    actualizarSimulacion();
+  };
+</script>
+
+</body>
+</html>

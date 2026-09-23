@@ -1,0 +1,880 @@
+﻿edad;sexo;ccaa;tamano_municipio;nivel_estudios_agrupado;certificado_oficial;tramo_grado_discapacidad;lim_vision;lim_audicion;lim_comunicacion;lim_aprendizaje;lim_movilidad;lim_autocuidado;num_limitaciones_graves;estado_civil;tipo_hogar;tamano_hogar;ingresos_hogar;tiene_internet;tiene_ordenador;indice_conectividad;pluridiscapacidad_grave;lim_sensorial;lim_autonomia_diaria;lim_cognitivo_relacional;edad_senior_con_limitacion;vive_solo
+35;Hombre;Castilla-La Mancha;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Soltero/a;Monoparental;4;5.000 € o más;1;1;2;1;0;1;1;0;0
+63;Mujer;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;0;0;0;0;0;1
+46;Hombre;La Rioja;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;No consta;Monoparental;3;No consta;1;1;2;1;0;1;0;0;0
+45;Hombre;Cataluña;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Otros tipos de hogar;3;No consta;1;1;2;0;0;0;1;0;0
+42;Hombre;Castilla-La Mancha;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;5.000 € o más;1;1;2;0;0;0;0;0;0
+61;Hombre;Canarias;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+35;Mujer;Castilla-La Mancha;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+49;Mujer;Navarra;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Separado/a o Divorciado/a;Pareja sin hijos;2;500 a 999 €;1;1;2;0;0;1;0;0;0
+47;Mujer;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Casado/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;1;0;0;0
+62;Hombre;Galicia;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;2.500 a 2.999 €;0;0;0;0;0;0;0;0;0
+64;Hombre;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+51;Mujer;Andalucía;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;2.500 a 2.999 €;1;1;2;0;0;1;0;1;0
+48;Mujer;Asturias;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;No consta;1;1;2;0;0;1;0;0;0
+57;Mujer;Canarias;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;2.500 a 2.999 €;1;1;2;0;0;1;0;1;0
+58;Mujer;Comunidad Valenciana;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;No consta;0;0;0;0;0;0;0;0;1
+51;Mujer;Aragón;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja sin hijos;3;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+56;Hombre;Región de Murcia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;0;1;0;0;0;0;0;0
+61;Hombre;Andalucía;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;1;1;1;3;Casado/a;Pareja con hijos;2;5.000 € o más;1;1;2;1;0;1;1;1;0
+23;Hombre;Navarra;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Otros tipos de hogar;4;No consta;0;0;0;0;0;0;1;0;0
+33;Mujer;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Monoparental;3;No consta;1;1;2;1;0;1;0;0;0
+60;Mujer;Andalucía;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;No consta;1;1;2;0;0;0;0;0;1
+55;Hombre;Canarias;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;4;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+22;Mujer;Navarra;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+46;Mujer;Cataluña;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;No consta;1;1;2;0;0;1;0;0;0
+41;Hombre;Cataluña;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;500 a 999 €;1;1;2;0;0;1;0;0;0
+52;Hombre;Cantabria;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Pareja sin hijos;2;1.500 a 1.999 €;1;1;2;0;0;1;0;1;0
+57;Mujer;Extremadura;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Pareja sin hijos;2;2.000 a 2.499 €;1;1;2;0;0;1;0;1;0
+58;Hombre;Aragón;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;3;3.000 a 4.999 €;1;1;2;1;0;1;0;1;0
+51;Hombre;Cantabria;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+37;Hombre;Melilla;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;3;1.000 a 1.499 €;0;1;1;0;0;0;0;0;0
+55;Hombre;Aragón;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+51;Mujer;Comunidad Valenciana;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;1.000 a 1.499 €;0;0;0;0;0;0;0;0;1
+54;Mujer;País Vasco;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;1;1;0;2;Viudo/a;Hogar unipersonal;1;Menos de 500 €;1;0;1;1;0;1;1;1;1
+17;Hombre;Comunidad Valenciana;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;4;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+20;Hombre;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;3;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+60;Mujer;Extremadura;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;0;1;1;0;1;0;1;0
+51;Mujer;Aragón;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;Menos de 500 €;1;1;2;0;0;0;0;0;0
+48;Hombre;Canarias;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Hogar unipersonal;1;500 a 999 €;1;1;2;0;0;0;0;0;1
+61;Hombre;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;2;500 a 999 €;0;0;0;0;0;0;0;0;0
+62;Mujer;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+24;Mujer;Extremadura;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;4;No consta;1;1;2;0;0;0;0;0;0
+36;Hombre;Galicia;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;2.500 a 2.999 €;0;0;0;0;0;0;0;0;0
+63;Mujer;Asturias;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;No consta;1;1;2;0;0;0;0;0;0
+57;Hombre;Castilla y León;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;2.000 a 2.499 €;1;0;1;0;0;0;0;0;0
+52;Mujer;La Rioja;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;1;0;0;1;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;1;1;0
+53;Mujer;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;No consta;Pareja sin hijos;2;Menos de 500 €;1;1;2;1;0;1;1;1;0
+64;Hombre;Galicia;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;Menos de 500 €;1;1;2;0;0;0;0;0;1
+55;Hombre;Melilla;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja sin hijos;2;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+64;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;No consta;Hogar unipersonal;1;Menos de 500 €;0;0;0;1;0;1;0;1;1
+30;Mujer;Galicia;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Monoparental;4;1.500 a 1.999 €;1;1;2;0;0;1;0;0;0
+45;Hombre;Comunidad de Madrid;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+57;Mujer;Melilla;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+58;Mujer;Castilla-La Mancha;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;500 a 999 €;0;0;0;0;0;0;0;0;0
+51;Hombre;Región de Murcia;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;2.500 a 2.999 €;1;1;2;0;0;1;0;1;0
+47;Mujer;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;Menos de 500 €;1;1;2;0;0;1;0;0;0
+61;Hombre;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Casado/a;Monoparental;3;5.000 € o más;1;1;2;0;0;1;0;1;0
+46;Hombre;Canarias;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;0;0;0;0;0;1
+36;Mujer;País Vasco;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;5.000 € o más;1;1;2;0;0;0;0;0;0
+64;Hombre;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+54;Hombre;Galicia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;1.500 a 1.999 €;1;0;1;0;0;0;0;0;0
+63;Hombre;Navarra;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+35;Hombre;Andalucía;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;Menos de 500 €;1;1;2;0;0;0;0;0;1
+56;Mujer;Castilla-La Mancha;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Viudo/a;Pareja sin hijos;2;500 a 999 €;1;0;1;0;0;1;0;1;0
+50;Mujer;Aragón;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;3.000 a 4.999 €;1;1;2;0;0;1;0;1;0
+61;Mujer;Canarias;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;1;1;1;3;No consta;Pareja sin hijos;2;Menos de 500 €;0;0;0;1;0;1;1;1;0
+46;Mujer;Comunidad de Madrid;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+56;Mujer;Comunidad Valenciana;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+63;Mujer;Comunidad Valenciana;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;2.500 a 2.999 €;1;1;2;0;0;1;0;1;0
+59;Mujer;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Pareja sin hijos;2;500 a 999 €;0;0;0;0;0;0;0;0;0
+56;Mujer;Andalucía;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;1;0;0;1;No consta;Hogar unipersonal;1;500 a 999 €;1;0;1;0;0;0;1;1;1
+16;Hombre;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;1;0;0;1;Soltero/a;Monoparental;4;2.000 a 2.499 €;1;1;2;0;0;0;1;0;0
+55;Hombre;País Vasco;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja sin hijos;3;1.500 a 1.999 €;1;0;1;0;0;0;0;0;0
+54;Hombre;Cataluña;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;1.000 a 1.499 €;1;0;1;0;0;0;0;0;0
+52;Mujer;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+63;Mujer;Cataluña;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+57;Mujer;Andalucía;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;2.500 a 2.999 €;0;0;0;0;0;0;0;0;1
+50;Hombre;Canarias;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Otros tipos de hogar;2;500 a 999 €;1;0;1;0;0;1;0;1;0
+61;Hombre;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Hogar unipersonal;1;1.500 a 1.999 €;1;1;2;0;0;0;0;0;1
+61;Hombre;Cantabria;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;1.000 a 1.499 €;0;0;0;0;0;0;0;0;1
+59;Hombre;La Rioja;50.000 a 99.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;0;1;0;0;0;0;0;0
+48;Mujer;La Rioja;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;1;1;0;1;4;Viudo/a;Otros tipos de hogar;2;1.500 a 1.999 €;1;0;1;1;1;1;1;0;0
+53;Hombre;Cataluña;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;4;3.000 a 4.999 €;1;1;2;1;0;1;0;1;0
+59;Mujer;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;2;No consta;0;0;0;0;0;0;0;0;0
+41;Hombre;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;500 a 999 €;1;1;2;0;0;0;0;0;1
+64;Mujer;País Vasco;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Separado/a o Divorciado/a;Otros tipos de hogar;3;1.000 a 1.499 €;1;1;2;1;0;1;0;1;0
+60;Hombre;Cataluña;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Separado/a o Divorciado/a;Otros tipos de hogar;2;No consta;0;0;0;1;0;1;0;1;0
+49;Mujer;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+22;Hombre;Castilla-La Mancha;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+57;Hombre;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;500 a 999 €;1;0;1;0;0;1;0;1;1
+40;Hombre;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;500 a 999 €;0;0;0;0;0;0;0;0;0
+56;Mujer;Cataluña;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Pareja con hijos;2;500 a 999 €;1;0;1;0;0;1;0;1;0
+64;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Hogar unipersonal;1;Menos de 500 €;1;0;1;1;0;1;0;1;1
+57;Mujer;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;3.000 a 4.999 €;1;1;2;0;0;1;0;1;0
+61;Mujer;Andalucía;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;3;500 a 999 €;1;0;1;0;0;0;0;0;0
+57;Hombre;Navarra;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;5;No consta;1;1;2;0;0;1;0;1;0
+58;Mujer;Asturias;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;2;5.000 € o más;1;1;2;0;0;0;0;0;0
+59;Hombre;Cataluña;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;2.000 a 2.499 €;1;1;2;0;0;1;0;1;0
+23;Hombre;Aragón;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Pareja sin hijos;2;3.000 a 4.999 €;0;0;0;0;0;1;0;0;0
+52;Mujer;Melilla;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Casado/a;Monoparental;3;5.000 € o más;1;1;2;0;0;1;0;1;0
+22;Hombre;País Vasco;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;No consta;0;0;0;0;0;0;0;0;1
+33;Mujer;Canarias;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;3;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+51;Hombre;Melilla;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;No consta;1;1;2;0;0;1;0;1;0
+57;Mujer;Asturias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;1.000 a 1.499 €;0;0;0;0;0;0;0;0;1
+52;Hombre;Cantabria;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;Soltero/a;Otros tipos de hogar;3;5.000 € o más;1;0;1;0;1;0;0;1;0
+49;Mujer;Aragón;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja sin hijos;2;No consta;1;1;2;0;0;0;0;0;0
+61;Mujer;La Rioja;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Hogar unipersonal;1;Menos de 500 €;0;0;0;0;0;1;0;1;1
+52;Mujer;País Vasco;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Pareja sin hijos;3;Menos de 500 €;1;1;2;0;0;0;0;0;0
+42;Hombre;Andalucía;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Pareja sin hijos;2;1.000 a 1.499 €;1;1;2;0;0;1;0;0;0
+18;Hombre;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Pareja sin hijos;2;1.000 a 1.499 €;1;1;2;1;0;1;0;0;0
+61;Hombre;Canarias;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;Menos de 500 €;1;1;2;0;0;1;0;1;0
+53;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Hogar unipersonal;1;500 a 999 €;0;1;1;0;0;0;0;0;1
+31;Hombre;Andalucía;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;3;No consta;0;0;0;0;0;0;0;0;0
+53;Hombre;Galicia;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+48;Mujer;Castilla-La Mancha;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;Casado/a;Otros tipos de hogar;4;1.500 a 1.999 €;1;1;2;0;1;0;0;0;0
+55;Hombre;Región de Murcia;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;Menos de 500 €;1;0;1;0;0;0;0;0;1
+60;Hombre;País Vasco;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Otros tipos de hogar;2;No consta;1;1;2;0;0;1;0;1;0
+59;Mujer;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Separado/a o Divorciado/a;Pareja sin hijos;2;No consta;1;1;2;0;0;1;0;1;0
+35;Hombre;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;No consta;1;1;2;0;0;1;0;0;1
+61;Hombre;Región de Murcia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;No consta;1;1;2;0;0;1;0;1;0
+40;Mujer;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;5.000 € o más;1;1;2;0;0;1;0;0;0
+33;Hombre;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;3;500 a 999 €;0;0;0;1;0;1;0;0;0
+54;Mujer;Castilla-La Mancha;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;No consta;Pareja sin hijos;2;Menos de 500 €;1;1;2;0;0;1;0;1;0
+42;Mujer;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Pareja sin hijos;2;No consta;0;0;0;1;0;1;1;0;0
+50;Mujer;Cantabria;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;2.000 a 2.499 €;1;1;2;0;0;1;0;1;0
+34;Mujer;Navarra;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;500 a 999 €;1;0;1;0;0;0;0;0;0
+56;Mujer;Navarra;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Separado/a o Divorciado/a;Hogar unipersonal;1;1.000 a 1.499 €;1;0;1;0;0;1;0;1;1
+58;Mujer;Asturias;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;2.500 a 2.999 €;1;1;2;0;0;1;0;1;0
+47;Mujer;Ceuta;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Pareja sin hijos;3;No consta;0;1;1;0;0;1;0;0;0
+37;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+58;Hombre;Navarra;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;3.000 a 4.999 €;1;1;2;0;0;1;0;1;0
+42;Hombre;Cataluña;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Monoparental;3;2.500 a 2.999 €;1;1;2;0;0;1;0;0;0
+62;Hombre;Castilla-La Mancha;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+62;Hombre;Cataluña;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;5.000 € o más;1;1;2;0;0;0;0;0;0
+58;Hombre;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;500 a 999 €;0;1;1;0;0;0;0;0;1
+42;Hombre;Canarias;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;Soltero/a;Monoparental;6;2.500 a 2.999 €;1;1;2;1;0;1;1;0;0
+26;Hombre;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Monoparental;3;No consta;1;0;1;0;0;0;1;0;0
+60;Mujer;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Otros tipos de hogar;2;Menos de 500 €;0;0;0;0;0;1;0;1;0
+57;Hombre;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;Menos de 500 €;1;0;1;0;0;1;0;1;1
+43;Hombre;Región de Murcia;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Hogar unipersonal;1;2.000 a 2.499 €;1;1;2;0;0;0;0;0;1
+53;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;No consta;1;0;1;0;0;0;0;0;1
+56;Hombre;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Hogar unipersonal;1;2.500 a 2.999 €;1;1;2;0;0;0;0;0;1
+58;Hombre;Castilla y León;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;No consta;Hogar unipersonal;1;1.000 a 1.499 €;1;1;2;0;1;0;0;1;1
+53;Mujer;Región de Murcia;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;Menos de 500 €;1;1;2;0;0;1;0;1;1
+55;Hombre;Castilla-La Mancha;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;5;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+63;Hombre;Navarra;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;1.000 a 1.499 €;0;0;0;0;0;1;0;1;1
+58;Hombre;Castilla y León;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;No consta;1;1;2;0;0;0;0;0;0
+58;Hombre;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;No consta;1;1;2;0;0;1;0;1;0
+54;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+43;Hombre;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;5;500 a 999 €;1;1;2;0;0;0;0;0;0
+46;Hombre;Comunidad de Madrid;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Monoparental;4;3.000 a 4.999 €;1;1;2;0;0;1;0;0;0
+52;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;1;1;2;0;0;1;0;1;0
+43;Mujer;Castilla y León;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Pareja sin hijos;2;1.500 a 1.999 €;1;1;2;0;0;1;0;0;0
+44;Hombre;Extremadura;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Otros tipos de hogar;6;1.500 a 1.999 €;0;0;0;0;0;1;0;0;0
+63;Hombre;Galicia;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;0;1;0;0;0;0;0;0
+60;Hombre;Cantabria;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;1;1;0;0;3;Casado/a;Pareja con hijos;2;2.500 a 2.999 €;0;0;0;1;1;0;1;1;0
+48;Mujer;Cantabria;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+41;Hombre;País Vasco;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Pareja sin hijos;2;No consta;1;1;2;1;0;1;0;0;0
+38;Mujer;Canarias;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;No consta;1;0;1;0;0;1;0;0;1
+28;Mujer;Cantabria;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Monoparental;4;2.500 a 2.999 €;1;0;1;0;0;1;0;0;0
+64;Hombre;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;0;0;0;0;0;0;0;0;0
+58;Mujer;Ceuta;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Otros tipos de hogar;9;No consta;1;1;2;0;0;0;0;0;0
+54;Mujer;Canarias;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;4;No consta;1;1;2;0;0;0;0;0;0
+60;Hombre;Comunidad de Madrid;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja con hijos;2;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+48;Mujer;Melilla;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;7;500 a 999 €;1;1;2;0;0;1;0;0;0
+60;Mujer;Cataluña;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Viudo/a;Pareja con hijos;2;2.000 a 2.499 €;0;1;1;0;0;0;0;0;0
+61;Hombre;Cataluña;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;No consta;0;0;0;0;0;0;0;0;1
+63;Hombre;Galicia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;500 a 999 €;0;1;1;0;0;0;0;0;1
+53;Hombre;La Rioja;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Monoparental;3;3.000 a 4.999 €;0;0;0;0;0;0;1;1;0
+35;Mujer;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Pareja sin hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;1;0;0
+58;Hombre;País Vasco;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;3;3.000 a 4.999 €;1;0;1;1;0;1;0;1;0
+58;Hombre;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;2;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+64;Hombre;Asturias;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Separado/a o Divorciado/a;Hogar unipersonal;1;3.000 a 4.999 €;1;1;2;0;0;1;0;1;1
+61;Mujer;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Pareja sin hijos;2;3.000 a 4.999 €;0;0;0;0;0;0;0;0;0
+32;Mujer;Canarias;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Casado/a;Monoparental;4;No consta;1;1;2;1;0;1;1;0;0
+50;Mujer;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Pareja sin hijos;3;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+61;Mujer;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+51;Hombre;Galicia;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;2.500 a 2.999 €;1;0;1;0;0;0;0;0;0
+30;Hombre;Asturias;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;Soltero/a;Pareja sin hijos;2;5.000 € o más;1;1;2;1;0;1;1;0;0
+61;Hombre;Cantabria;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;Casado/a;Pareja con hijos;2;2.000 a 2.499 €;1;0;1;1;0;1;1;1;0
+54;Hombre;Región de Murcia;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;5;5.000 € o más;1;1;2;0;0;0;0;0;0
+51;Mujer;Asturias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;500 a 999 €;1;0;1;0;0;0;0;0;0
+60;Hombre;Comunidad Valenciana;50.000 a 99.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Otros tipos de hogar;2;1.000 a 1.499 €;0;0;0;1;0;1;1;1;0
+44;Hombre;Comunidad Valenciana;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Pareja sin hijos;2;500 a 999 €;0;1;1;0;0;0;1;0;0
+33;Hombre;Cataluña;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja con hijos;2;1.000 a 1.499 €;0;0;0;0;0;0;0;0;0
+54;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;Menos de 500 €;1;1;2;0;0;1;0;1;0
+53;Hombre;Comunidad Valenciana;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Soltero/a;Otros tipos de hogar;2;No consta;1;1;2;1;0;1;1;1;0
+20;Hombre;Castilla-La Mancha;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;Soltero/a;Otros tipos de hogar;5;No consta;1;0;1;1;0;1;1;0;0
+61;Hombre;Castilla y León;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+59;Mujer;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;7;1.000 a 1.499 €;0;0;0;0;0;0;0;0;0
+53;Mujer;Canarias;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Viudo/a;Pareja sin hijos;4;2.500 a 2.999 €;1;1;2;0;0;1;0;1;0
+61;Mujer;Baleares;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Viudo/a;Hogar unipersonal;1;Menos de 500 €;1;0;1;0;0;1;0;1;1
+61;Hombre;Navarra;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;4;1.500 a 1.999 €;1;1;2;1;0;1;0;1;0
+53;Mujer;Galicia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;No consta;1;1;2;0;0;1;0;1;0
+58;Mujer;Cantabria;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;No consta;Hogar unipersonal;1;3.000 a 4.999 €;1;1;2;1;0;1;0;1;1
+52;Mujer;Andalucía;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;500 a 999 €;1;0;1;0;0;1;0;1;0
+58;Hombre;Comunidad Valenciana;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja sin hijos;3;500 a 999 €;1;1;2;0;0;0;0;0;0
+26;Hombre;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;5.000 € o más;1;1;2;0;0;0;0;0;1
+63;Hombre;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Viudo/a;Otros tipos de hogar;2;Menos de 500 €;0;0;0;0;0;0;0;0;0
+61;Hombre;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+24;Hombre;Extremadura;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Pareja sin hijos;3;500 a 999 €;1;0;1;1;0;1;1;0;0
+60;Mujer;Comunidad Valenciana;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;0;0;0;1;0;1;0;1;0
+60;Hombre;Comunidad Valenciana;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;No consta;1;1;2;0;0;0;0;0;0
+32;Hombre;Navarra;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+51;Mujer;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;1.000 a 1.499 €;1;1;2;0;0;1;0;1;0
+58;Mujer;Cataluña;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+64;Hombre;Comunidad de Madrid;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja con hijos;2;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+21;Mujer;Región de Murcia;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;3;1.500 a 1.999 €;1;0;1;0;0;0;0;0;0
+20;Mujer;Navarra;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;4;1.500 a 1.999 €;0;0;0;0;0;0;0;0;0
+44;Mujer;Extremadura;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja con hijos;2;No consta;1;1;2;0;0;0;0;0;0
+20;Mujer;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Otros tipos de hogar;4;3.000 a 4.999 €;1;1;2;1;0;1;0;0;0
+54;Hombre;Castilla-La Mancha;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;0;0;0;0;0;1
+48;Hombre;Cataluña;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Viudo/a;Hogar unipersonal;1;2.500 a 2.999 €;1;0;1;0;0;1;0;0;1
+19;Mujer;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;Soltero/a;Monoparental;5;No consta;1;1;2;0;1;0;0;0;0
+58;Hombre;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+26;Mujer;Comunidad de Madrid;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;Soltero/a;Monoparental;4;2.500 a 2.999 €;1;1;2;1;0;1;1;0;0
+55;Mujer;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;1;0;1;0;0;1;0;1;0
+53;Mujer;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Pareja sin hijos;3;2.500 a 2.999 €;0;0;0;1;0;1;0;1;0
+58;Mujer;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;Menos de 500 €;1;0;1;0;0;0;0;0;0
+36;Mujer;Galicia;20.000 a 49.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Monoparental;3;3.000 a 4.999 €;1;1;2;1;0;1;1;0;0
+39;Mujer;Extremadura;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Casado/a;Monoparental;4;5.000 € o más;1;1;2;0;0;1;0;0;0
+52;Mujer;Comunidad Valenciana;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;1;0;1;0
+36;Hombre;Aragón;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;1.500 a 1.999 €;0;1;1;0;0;1;0;0;0
+31;Mujer;Andalucía;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;6;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+64;Hombre;Comunidad Valenciana;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+58;Mujer;Baleares;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Monoparental;4;Menos de 500 €;1;1;2;1;0;1;0;1;0
+54;Hombre;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+51;Hombre;Andalucía;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;5;1.500 a 1.999 €;1;0;1;0;0;0;0;0;0
+50;Mujer;Andalucía;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;No consta;1;1;2;0;0;0;0;0;1
+53;Hombre;Andalucía;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;3.000 a 4.999 €;1;1;2;0;0;1;0;1;0
+51;Mujer;Baleares;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;1;0;0;1;0;2;Separado/a o Divorciado/a;Pareja sin hijos;2;2.500 a 2.999 €;1;1;2;1;1;1;0;1;0
+47;Mujer;Canarias;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+61;Mujer;Castilla-La Mancha;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;3.000 a 4.999 €;1;0;1;0;0;0;0;0;0
+49;Mujer;Galicia;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;No consta;1;1;2;0;0;1;0;0;1
+16;Hombre;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;6;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+48;Hombre;País Vasco;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Pareja con hijos;2;500 a 999 €;1;0;1;0;0;1;0;0;0
+37;Mujer;Región de Murcia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;2.500 a 2.999 €;0;0;0;0;0;0;0;0;0
+57;Mujer;Melilla;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;1;0;0;1;Viudo/a;Otros tipos de hogar;4;500 a 999 €;1;0;1;0;0;0;1;1;0
+59;Mujer;Comunidad Valenciana;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;500 a 999 €;0;0;0;0;0;0;0;0;0
+61;Mujer;Cantabria;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Separado/a o Divorciado/a;Pareja sin hijos;3;No consta;1;1;2;0;0;1;0;1;0
+61;Mujer;Baleares;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+42;Mujer;Región de Murcia;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;Menos de 500 €;1;1;2;0;0;0;0;0;0
+60;Mujer;Galicia;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;3;No consta;1;1;2;0;0;0;0;0;0
+49;Hombre;Comunidad Valenciana;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;5.000 € o más;1;1;2;0;0;0;0;0;0
+18;Hombre;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Otros tipos de hogar;4;1.000 a 1.499 €;1;1;2;0;0;0;1;0;0
+51;Mujer;Comunidad Valenciana;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Pareja con hijos;2;2.500 a 2.999 €;1;1;2;0;0;1;0;1;0
+53;Hombre;Galicia;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja sin hijos;3;No consta;1;1;2;0;0;0;0;0;0
+60;Hombre;Castilla y León;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;500 a 999 €;1;1;2;0;0;0;0;0;0
+61;Mujer;Castilla y León;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+19;Hombre;Región de Murcia;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;5;No consta;1;0;1;0;0;0;0;0;0
+59;Mujer;Galicia;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;5.000 € o más;1;1;2;0;0;0;0;0;0
+55;Mujer;Cantabria;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;Casado/a;Pareja con hijos;2;No consta;1;1;2;0;1;0;0;1;0
+41;Mujer;Baleares;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;Menos de 500 €;0;0;0;0;0;0;0;0;0
+47;Hombre;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Hogar unipersonal;1;1.000 a 1.499 €;1;1;2;0;0;0;0;0;1
+39;Hombre;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;3;No consta;1;1;2;0;0;0;0;0;0
+17;Mujer;Galicia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;5;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+40;Hombre;Cataluña;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Otros tipos de hogar;4;No consta;1;1;2;0;0;0;0;0;0
+64;Hombre;País Vasco;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;1;1;0
+41;Hombre;Asturias;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;2.000 a 2.499 €;0;0;0;0;0;0;0;0;0
+27;Hombre;Comunidad Valenciana;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;3;500 a 999 €;1;1;2;0;0;0;0;0;0
+56;Hombre;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;3;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+47;Hombre;Castilla-La Mancha;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Otros tipos de hogar;2;3.000 a 4.999 €;1;1;2;1;0;1;0;0;0
+56;Mujer;País Vasco;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;3;5.000 € o más;1;1;2;1;0;1;0;1;0
+64;Hombre;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;0;0;0;1;1;1
+55;Hombre;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;0;0;1;0;1;1
+55;Mujer;Andalucía;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;No consta;Hogar unipersonal;1;500 a 999 €;0;0;0;1;0;1;0;1;1
+19;Hombre;Andalucía;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;Soltero/a;Monoparental;5;No consta;1;1;2;1;0;1;1;0;0
+53;Hombre;Galicia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;3;No consta;1;0;1;0;0;0;0;0;0
+53;Hombre;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;1.000 a 1.499 €;1;0;1;0;0;0;0;0;1
+60;Mujer;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;500 a 999 €;1;1;2;0;0;0;0;0;0
+28;Hombre;Cataluña;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;Soltero/a;Monoparental;3;No consta;1;1;2;1;0;1;1;0;0
+50;Mujer;Andalucía;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+47;Mujer;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.000 a 1.499 €;0;1;1;0;0;0;0;0;0
+48;Mujer;Comunidad Valenciana;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;No consta;0;0;0;0;0;0;0;0;1
+54;Hombre;Comunidad Valenciana;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;No consta;Monoparental;3;1.500 a 1.999 €;1;1;2;1;0;1;0;1;0
+52;Mujer;Cataluña;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Pareja sin hijos;3;No consta;1;1;2;1;0;1;1;1;0
+64;Mujer;País Vasco;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Hogar unipersonal;1;No consta;0;0;0;0;0;0;0;0;1
+59;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;5;2.000 a 2.499 €;1;0;1;1;0;1;0;1;0
+45;Mujer;Extremadura;100.000 a 499.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;No consta;Pareja sin hijos;3;Menos de 500 €;1;0;1;0;0;0;1;0;0
+46;Hombre;Andalucía;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;2.000 a 2.499 €;0;0;0;0;0;0;0;0;1
+27;Hombre;Galicia;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+37;Mujer;Galicia;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+21;Hombre;Baleares;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Otros tipos de hogar;7;5.000 € o más;1;1;2;1;0;1;0;0;0
+45;Mujer;Canarias;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Hogar unipersonal;1;500 a 999 €;0;0;0;1;0;1;1;0;1
+22;Hombre;Galicia;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Soltero/a;Pareja sin hijos;3;1.500 a 1.999 €;1;1;2;1;0;1;1;0;0
+62;Mujer;Castilla-La Mancha;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Otros tipos de hogar;3;No consta;0;0;0;1;0;1;0;1;0
+61;Mujer;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Casado/a;Pareja con hijos;2;500 a 999 €;0;0;0;0;0;1;0;1;0
+55;Mujer;Cataluña;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Separado/a o Divorciado/a;Hogar unipersonal;1;1.500 a 1.999 €;1;1;2;0;0;1;0;1;1
+44;Mujer;Andalucía;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;1;0;0
+53;Mujer;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+45;Mujer;Castilla-La Mancha;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Monoparental;3;1.500 a 1.999 €;1;0;1;0;0;1;0;0;0
+60;Mujer;Castilla-La Mancha;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Hogar unipersonal;1;1.500 a 1.999 €;1;0;1;0;0;1;0;1;1
+22;Mujer;Comunidad de Madrid;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;1;0;1;1;1;1;5;Soltero/a;Monoparental;4;1.500 a 1.999 €;1;0;1;1;1;1;1;0;0
+55;Mujer;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;1;0;0;0;0;1;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;0;1;0;0;1;1
+60;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;Casado/a;Pareja con hijos;2;No consta;1;0;1;1;0;1;1;1;0
+51;Hombre;Galicia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Monoparental;3;No consta;1;1;2;0;0;1;0;1;0
+50;Mujer;Cataluña;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja sin hijos;2;No consta;1;1;2;0;0;0;0;0;0
+46;Mujer;País Vasco;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;No consta;1;1;2;0;0;1;0;0;0
+45;Hombre;Castilla y León;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja con hijos;2;5.000 € o más;1;1;2;0;0;0;0;0;0
+25;Hombre;Región de Murcia;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;4;No consta;1;1;2;0;0;0;0;0;0
+60;Hombre;Navarra;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;No consta;1;1;2;0;0;1;0;1;0
+53;Mujer;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Viudo/a;Pareja sin hijos;2;Menos de 500 €;1;1;2;0;0;1;0;1;0
+57;Mujer;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Hogar unipersonal;1;2.500 a 2.999 €;1;1;2;0;0;0;0;0;1
+61;Hombre;Cataluña;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Hogar unipersonal;1;No consta;1;0;1;0;0;1;0;1;1
+20;Hombre;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;3;500 a 999 €;1;1;2;0;0;0;0;0;0
+26;Mujer;Andalucía;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Soltero/a;Monoparental;5;No consta;1;1;2;1;0;1;1;0;0
+44;Hombre;Castilla y León;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;5;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+52;Mujer;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja sin hijos;2;1.000 a 1.499 €;0;0;0;0;0;0;0;0;0
+60;Hombre;Comunidad Valenciana;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;7;1.500 a 1.999 €;1;0;1;0;0;0;0;0;0
+39;Hombre;Cataluña;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;No consta;Hogar unipersonal;1;1.500 a 1.999 €;1;1;2;0;1;0;0;0;1
+52;Mujer;Cataluña;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+61;Hombre;Galicia;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;3;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+63;Hombre;Comunidad Valenciana;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;1;1;2;0;0;1;0;1;0
+64;Mujer;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;0;0;0;0;0;0;0;0;0
+56;Hombre;Andalucía;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Casado/a;Monoparental;3;500 a 999 €;0;0;0;0;0;0;1;1;0
+44;Mujer;Castilla y León;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;1;0;0;1;Soltero/a;Pareja sin hijos;2;Menos de 500 €;0;0;0;0;0;0;1;0;0
+37;Mujer;Castilla-La Mancha;20.000 a 49.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;3;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+31;Mujer;Andalucía;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Pareja sin hijos;3;3.000 a 4.999 €;1;1;2;1;0;1;1;0;0
+21;Hombre;Galicia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Monoparental;4;2.500 a 2.999 €;1;1;2;1;0;1;1;0;0
+62;Hombre;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;1;0;1;0;0;0;0;0;0
+60;Mujer;Andalucía;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;No consta;Otros tipos de hogar;2;1.500 a 1.999 €;1;1;2;1;0;1;0;1;0
+57;Mujer;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;0;0;0;0;0;1
+47;Hombre;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+50;Mujer;Baleares;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Viudo/a;Otros tipos de hogar;3;Menos de 500 €;1;0;1;0;0;0;0;0;0
+57;Mujer;Melilla;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Pareja con hijos;2;2.000 a 2.499 €;1;1;2;0;0;0;1;1;0
+61;Mujer;Asturias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+61;Mujer;Castilla y León;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+47;Mujer;Comunidad Valenciana;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Monoparental;3;Menos de 500 €;1;1;2;0;0;1;0;0;0
+52;Mujer;Canarias;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;2;Menos de 500 €;0;0;0;0;0;0;0;0;0
+46;Mujer;Aragón;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Pareja sin hijos;2;500 a 999 €;0;0;0;0;0;1;0;0;0
+60;Mujer;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja sin hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+54;Mujer;Andalucía;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;1;0;1;0;0;0;0;0;0
+30;Mujer;Andalucía;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;No consta;1;1;2;0;0;1;0;0;0
+48;Hombre;Cantabria;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;Soltero/a;Pareja sin hijos;2;No consta;1;0;1;1;0;1;1;0;0
+51;Hombre;Aragón;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+44;Mujer;Andalucía;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;5;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+60;Hombre;Aragón;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;2;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+60;Hombre;Extremadura;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja sin hijos;3;2.000 a 2.499 €;1;0;1;0;0;1;0;1;0
+46;Mujer;Castilla-La Mancha;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;500 a 999 €;0;0;0;0;0;0;0;0;0
+61;Mujer;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;500 a 999 €;0;0;0;0;0;0;0;0;1
+47;Mujer;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;2.500 a 2.999 €;1;1;2;0;0;1;0;0;0
+31;Mujer;Andalucía;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;3;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+55;Hombre;Galicia;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;1.000 a 1.499 €;1;0;1;0;0;0;0;0;1
+59;Mujer;Galicia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Otros tipos de hogar;3;Menos de 500 €;1;1;2;0;0;0;0;0;0
+58;Hombre;Galicia;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;No consta;1;1;2;0;0;1;0;1;0
+41;Mujer;Canarias;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;No consta;Hogar unipersonal;1;No consta;1;1;2;0;0;0;1;0;1
+59;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;1;0;0;0;0;1;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;1;0;1;0;1;0;0;1;0
+61;Hombre;Aragón;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Otros tipos de hogar;3;5.000 € o más;1;1;2;0;0;1;0;1;0
+56;Hombre;Castilla y León;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;1;1;2;0;0;1;0;1;0
+64;Hombre;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Hogar unipersonal;1;1.000 a 1.499 €;1;0;1;0;0;1;0;1;1
+39;Hombre;Comunidad Valenciana;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;1;0;0;1;Soltero/a;Otros tipos de hogar;3;3.000 a 4.999 €;1;1;2;0;0;0;1;0;0
+56;Mujer;País Vasco;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;500 a 999 €;0;0;0;0;0;1;0;1;0
+53;Hombre;Castilla-La Mancha;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;4;2.000 a 2.499 €;1;1;2;1;0;1;0;1;0
+45;Hombre;Melilla;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;1;0;0;1;Soltero/a;Pareja sin hijos;5;No consta;1;0;1;0;0;0;1;0;0
+58;Hombre;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;500 a 999 €;0;0;0;0;0;0;0;0;1
+24;Hombre;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Otros tipos de hogar;3;No consta;1;1;2;1;0;1;0;0;0
+37;Mujer;Andalucía;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Monoparental;3;1.000 a 1.499 €;1;1;2;0;0;1;0;0;0
+40;Mujer;Andalucía;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+53;Mujer;Extremadura;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;1;0;1;0
+27;Hombre;Región de Murcia;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;7;No consta;1;0;1;0;0;0;0;0;0
+16;Hombre;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+42;Mujer;Andalucía;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+63;Mujer;Castilla y León;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+54;Hombre;Aragón;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+57;Hombre;Cataluña;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;500 a 999 €;1;0;1;0;0;1;0;1;0
+45;Mujer;Asturias;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;Soltero/a;Hogar unipersonal;1;2.000 a 2.499 €;1;1;2;0;1;0;0;0;1
+63;Mujer;Andalucía;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Viudo/a;Hogar unipersonal;1;No consta;1;1;2;1;0;1;0;1;1
+62;Hombre;Baleares;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+44;Mujer;Comunidad de Madrid;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Soltero/a;Monoparental;3;1.000 a 1.499 €;0;0;0;1;0;1;1;0;0
+28;Mujer;Canarias;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja con hijos;2;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+60;Mujer;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;500 a 999 €;1;0;1;0;0;0;0;0;0
+50;Hombre;Galicia;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Monoparental;6;No consta;1;1;2;0;0;0;1;1;0
+59;Hombre;Aragón;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;5.000 € o más;1;0;1;0;0;1;0;1;0
+58;Hombre;Aragón;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;4;No consta;1;1;2;1;0;1;0;1;0
+47;Mujer;Baleares;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;1.500 a 1.999 €;1;1;2;0;0;0;0;0;1
+55;Hombre;Canarias;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Viudo/a;Hogar unipersonal;1;500 a 999 €;1;0;1;0;0;0;0;0;1
+46;Mujer;Cataluña;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Otros tipos de hogar;7;1.000 a 1.499 €;0;1;1;0;0;0;0;0;0
+48;Hombre;Andalucía;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;Casado/a;Monoparental;3;No consta;1;0;1;1;0;1;1;0;0
+51;Mujer;Aragón;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja sin hijos;3;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+38;Hombre;Cataluña;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Monoparental;3;2.500 a 2.999 €;1;1;2;0;0;0;1;0;0
+62;Hombre;Cataluña;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;No consta;1;1;2;0;0;0;0;0;0
+45;Mujer;Aragón;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;6;2.000 a 2.499 €;1;0;1;0;0;0;0;0;0
+39;Hombre;Castilla y León;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;Soltero/a;Hogar unipersonal;1;No consta;0;0;0;0;1;0;0;0;1
+56;Hombre;Castilla y León;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Pareja sin hijos;2;2.500 a 2.999 €;1;1;2;0;0;1;0;1;0
+57;Hombre;País Vasco;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja con hijos;2;No consta;1;1;2;0;0;0;0;0;0
+60;Mujer;Castilla y León;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Hogar unipersonal;1;Menos de 500 €;1;1;2;0;0;0;1;1;1
+48;Mujer;Andalucía;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;No consta;1;1;2;0;0;0;0;0;0
+55;Hombre;Andalucía;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;0;0;2;Soltero/a;Otros tipos de hogar;2;3.000 a 4.999 €;1;1;2;1;0;0;1;1;0
+43;Hombre;Comunidad Valenciana;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;1;1;0;0;0;2;Casado/a;Monoparental;4;3.000 a 4.999 €;1;1;2;1;1;0;1;0;0
+56;Hombre;Andalucía;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;5.000 € o más;1;1;2;0;0;0;0;0;0
+64;Hombre;Comunidad Valenciana;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;5.000 € o más;1;1;2;0;0;1;0;1;0
+23;Hombre;Galicia;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;1.500 a 1.999 €;1;1;2;0;0;0;0;0;1
+62;Hombre;Andalucía;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Casado/a;Pareja con hijos;2;500 a 999 €;0;0;0;0;0;0;1;1;0
+58;Hombre;Baleares;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+31;Mujer;Castilla y León;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Monoparental;3;1.500 a 1.999 €;1;1;2;1;0;1;0;0;0
+47;Mujer;Comunidad de Madrid;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;5.000 € o más;1;1;2;0;0;0;0;0;0
+56;Mujer;Cataluña;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;0;1;0;0;1;0;1;0
+35;Mujer;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;0;0;2;Soltero/a;Hogar unipersonal;1;Menos de 500 €;1;0;1;1;0;0;1;0;1
+38;Mujer;La Rioja;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Monoparental;3;No consta;1;1;2;0;0;1;0;0;0
+47;Mujer;Cataluña;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Viudo/a;Pareja sin hijos;3;Menos de 500 €;1;1;2;0;0;0;0;0;0
+60;Mujer;Cataluña;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Casado/a;Pareja con hijos;2;500 a 999 €;1;1;2;0;0;0;1;1;0
+58;Mujer;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;0;1;0;0;0;0;0;0
+44;Mujer;Comunidad de Madrid;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Casado/a;Monoparental;6;No consta;1;1;2;0;0;0;1;0;0
+21;Hombre;Cataluña;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;No consta;1;1;2;0;0;0;0;0;0
+63;Hombre;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Casado/a;Monoparental;3;500 a 999 €;1;1;2;0;0;0;1;1;0
+22;Hombre;Castilla y León;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;Soltero/a;Otros tipos de hogar;4;3.000 a 4.999 €;1;1;2;1;0;1;1;0;0
+43;Hombre;Castilla y León;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Hogar unipersonal;1;Menos de 500 €;1;1;2;0;0;0;1;0;1
+37;Hombre;Canarias;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;1;1;1;0;0;3;Soltero/a;Pareja sin hijos;3;1.000 a 1.499 €;0;0;0;1;1;0;1;0;0
+62;Mujer;Castilla y León;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;3;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+52;Hombre;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Otros tipos de hogar;4;1.000 a 1.499 €;1;1;2;0;0;1;0;1;0
+57;Hombre;Galicia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;No consta;1;0;1;0;0;0;0;0;1
+44;Hombre;Comunidad Valenciana;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;5;No consta;1;1;2;0;0;0;0;0;0
+29;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;3;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+63;Mujer;Andalucía;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+43;Hombre;Asturias;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja con hijos;2;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+62;Hombre;Castilla y León;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;No consta;1;1;2;0;0;0;0;0;0
+21;Hombre;Cantabria;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;1.000 a 1.499 €;1;0;1;0;0;0;0;0;0
+30;Hombre;País Vasco;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Monoparental;3;2.500 a 2.999 €;1;1;2;1;0;1;1;0;0
+28;Hombre;Región de Murcia;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;3;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+58;Hombre;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Otros tipos de hogar;2;500 a 999 €;1;1;2;0;0;1;0;1;0
+61;Mujer;Extremadura;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;0;1;0;0;0;0;0;0
+51;Mujer;Canarias;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;0;0;2;Separado/a o Divorciado/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;1;0;0;1;1;1
+63;Mujer;Andalucía;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;5.000 € o más;1;1;2;0;0;1;0;1;0
+47;Mujer;La Rioja;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;5.000 € o más;1;1;2;0;0;0;0;0;0
+49;Hombre;Extremadura;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;4;3.000 a 4.999 €;1;1;2;1;0;1;0;0;0
+44;Mujer;País Vasco;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;2;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+33;Mujer;Cantabria;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;5.000 € o más;1;1;2;0;0;0;0;0;0
+41;Hombre;Andalucía;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;5;1.000 a 1.499 €;0;0;0;0;0;0;0;0;0
+60;Hombre;Andalucía;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Hogar unipersonal;1;2.000 a 2.499 €;1;1;2;0;0;0;0;0;1
+63;Mujer;Navarra;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+49;Mujer;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Viudo/a;Pareja sin hijos;2;1.000 a 1.499 €;1;0;1;0;0;0;0;0;0
+49;Hombre;Canarias;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+56;Hombre;Andalucía;20.000 a 49.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;2;Menos de 500 €;1;0;1;0;0;0;0;0;0
+58;Mujer;Canarias;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;1.000 a 1.499 €;1;0;1;0;0;0;0;0;0
+45;Hombre;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;5;5.000 € o más;1;1;2;0;0;1;0;0;0
+49;Hombre;La Rioja;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;1;1;0;0;0;0;0;1
+59;Hombre;Aragón;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+46;Mujer;Castilla y León;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+53;Hombre;Castilla y León;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Hogar unipersonal;1;No consta;0;0;0;1;0;1;1;1;1
+61;Hombre;Cataluña;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Viudo/a;Monoparental;6;2.000 a 2.499 €;1;0;1;0;0;0;0;0;0
+61;Hombre;Comunidad de Madrid;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+17;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Monoparental;5;2.000 a 2.499 €;1;1;2;0;0;1;0;0;0
+55;Mujer;Baleares;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;1;1;2;0;0;1;0;1;0
+49;Hombre;Cataluña;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;3.000 a 4.999 €;1;1;2;0;0;1;0;0;0
+34;Hombre;Extremadura;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;Soltero/a;Monoparental;4;Menos de 500 €;1;1;2;1;0;1;1;0;0
+63;Mujer;Región de Murcia;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Pareja sin hijos;3;No consta;1;1;2;0;0;1;0;1;0
+53;Hombre;Comunidad Valenciana;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Otros tipos de hogar;3;Menos de 500 €;0;0;0;1;0;1;0;1;0
+61;Hombre;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;Menos de 500 €;1;1;2;0;0;0;0;0;0
+53;Hombre;Comunidad Valenciana;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;5.000 € o más;1;1;2;0;0;0;0;0;0
+25;Mujer;Aragón;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;4;500 a 999 €;1;1;2;0;0;0;0;0;0
+59;Mujer;Galicia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+50;Mujer;Región de Murcia;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Otros tipos de hogar;4;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+47;Mujer;Cataluña;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;1;0;0;0;0;1;No consta;Pareja sin hijos;3;1.000 a 1.499 €;1;1;2;0;1;0;0;0;0
+61;Hombre;Castilla y León;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+37;Mujer;Andalucía;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Pareja con hijos;2;2.500 a 2.999 €;1;1;2;1;0;1;0;0;0
+64;Hombre;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;Casado/a;Otros tipos de hogar;2;500 a 999 €;1;1;2;1;0;1;1;1;0
+41;Mujer;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;5.000 € o más;1;1;2;0;0;0;0;0;0
+47;Hombre;La Rioja;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;5.000 € o más;1;1;2;0;0;1;0;0;0
+28;Mujer;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Monoparental;4;2.000 a 2.499 €;1;1;2;0;0;0;1;0;0
+56;Mujer;Baleares;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja con hijos;2;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+49;Hombre;Navarra;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Viudo/a;Monoparental;5;1.500 a 1.999 €;1;0;1;0;0;0;0;0;0
+53;Mujer;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Otros tipos de hogar;3;No consta;0;0;0;0;0;1;0;1;0
+58;Hombre;Andalucía;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;2;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+53;Mujer;Comunidad de Madrid;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;No consta;Hogar unipersonal;1;Menos de 500 €;0;0;0;0;0;0;1;1;1
+54;Mujer;Comunidad de Madrid;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Pareja con hijos;2;No consta;1;1;2;1;0;1;0;1;0
+63;Hombre;Aragón;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Otros tipos de hogar;3;1.000 a 1.499 €;1;1;2;0;0;1;0;1;0
+48;Hombre;País Vasco;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;1;0;1;0;0;1
+46;Mujer;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Casado/a;Monoparental;4;2.500 a 2.999 €;1;0;1;1;0;1;1;0;0
+52;Hombre;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;4;5.000 € o más;1;1;2;0;0;0;0;0;0
+49;Hombre;Canarias;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;1.500 a 1.999 €;1;0;1;0;0;1;0;0;0
+29;Mujer;Ceuta;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;6;1.500 a 1.999 €;1;0;1;0;0;0;0;0;0
+46;Mujer;Galicia;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;No consta;Pareja sin hijos;3;1.500 a 1.999 €;1;0;1;1;0;1;0;0;0
+46;Mujer;Galicia;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Otros tipos de hogar;6;3.000 a 4.999 €;1;1;2;1;0;1;1;0;0
+64;Hombre;Navarra;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;1;1;1;3;Casado/a;Monoparental;3;1.000 a 1.499 €;1;0;1;1;0;1;1;1;0
+26;Mujer;Andalucía;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja con hijos;2;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+50;Hombre;Galicia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;1;0;2;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;1;0;1;1;1;1
+60;Mujer;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;Soltero/a;Otros tipos de hogar;2;3.000 a 4.999 €;1;1;2;0;1;0;0;1;0
+52;Hombre;Galicia;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;500 a 999 €;0;0;0;0;0;0;0;0;1
+60;Hombre;Navarra;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;1;0;3;Viudo/a;Hogar unipersonal;1;1.500 a 1.999 €;1;0;1;1;0;1;1;1;1
+32;Hombre;Comunidad Valenciana;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;3;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+53;Mujer;Melilla;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+39;Hombre;País Vasco;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;9;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+55;Mujer;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Otros tipos de hogar;5;No consta;1;1;2;0;0;1;0;1;0
+29;Hombre;Región de Murcia;20.000 a 49.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Soltero/a;Monoparental;4;No consta;1;1;2;1;0;1;1;0;0
+34;Hombre;Canarias;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Pareja sin hijos;4;2.000 a 2.499 €;0;0;0;1;0;1;0;0;0
+61;Mujer;Comunidad Valenciana;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;No consta;Hogar unipersonal;1;500 a 999 €;0;0;0;1;0;1;0;1;1
+62;Mujer;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+58;Mujer;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;5;1.000 a 1.499 €;1;0;1;0;0;0;0;0;0
+54;Mujer;Región de Murcia;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;9;Menos de 500 €;0;0;0;0;0;0;0;0;0
+50;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Pareja sin hijos;2;1.000 a 1.499 €;0;0;0;0;0;0;1;1;0
+63;Hombre;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;0;1;0;0;0;0;0;0
+49;Hombre;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;1;0;0;0
+57;Hombre;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Hogar unipersonal;1;500 a 999 €;0;0;0;0;0;1;0;1;1
+57;Mujer;Región de Murcia;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;4;5.000 € o más;1;1;2;0;0;0;0;0;0
+36;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;4;500 a 999 €;1;0;1;1;0;1;0;0;0
+56;Mujer;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+58;Mujer;Baleares;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Otros tipos de hogar;3;3.000 a 4.999 €;1;1;2;0;0;1;0;1;0
+63;Hombre;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;2.500 a 2.999 €;1;0;1;0;0;0;0;0;0
+55;Mujer;Galicia;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Hogar unipersonal;1;Menos de 500 €;1;0;1;0;0;1;0;1;1
+59;Mujer;La Rioja;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Hogar unipersonal;1;1.500 a 1.999 €;1;1;2;0;0;0;0;0;1
+62;Hombre;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;500 a 999 €;1;0;1;0;0;0;0;0;0
+64;Mujer;Andalucía;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;5.000 € o más;1;1;2;0;0;0;0;0;0
+60;Mujer;Castilla-La Mancha;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+59;Mujer;Andalucía;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja sin hijos;3;No consta;1;1;2;0;0;0;0;0;0
+59;Mujer;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;1;0;1;0
+59;Mujer;País Vasco;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+51;Hombre;Navarra;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;No consta;Hogar unipersonal;1;3.000 a 4.999 €;1;0;1;0;0;1;0;1;1
+63;Mujer;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Viudo/a;Otros tipos de hogar;2;1.500 a 1.999 €;1;1;2;0;0;1;0;1;0
+60;Mujer;Comunidad Valenciana;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;1;1;0;0;0;2;No consta;Otros tipos de hogar;2;No consta;1;1;2;1;1;0;1;1;0
+46;Mujer;Región de Murcia;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;1;0;0;0
+59;Hombre;Comunidad Valenciana;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+44;Mujer;Cataluña;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Viudo/a;Otros tipos de hogar;6;500 a 999 €;1;0;1;0;0;1;0;0;0
+61;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+54;Mujer;Comunidad de Madrid;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+43;Hombre;Galicia;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;5.000 € o más;1;0;1;0;0;1;0;0;0
+56;Mujer;Galicia;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Otros tipos de hogar;2;3.000 a 4.999 €;1;1;2;0;0;1;0;1;0
+19;Hombre;Castilla y León;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;4;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+24;Hombre;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Pareja sin hijos;2;500 a 999 €;0;0;0;0;0;0;1;0;0
+55;Mujer;Cantabria;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Pareja sin hijos;2;1.500 a 1.999 €;0;0;0;0;0;0;1;1;0
+55;Mujer;Cataluña;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;2.000 a 2.499 €;1;0;1;0;0;1;0;1;0
+62;Hombre;Aragón;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;500 a 999 €;0;0;0;0;0;0;0;0;1
+57;Mujer;País Vasco;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja con hijos;2;2.000 a 2.499 €;1;0;1;0;0;0;0;0;0
+58;Mujer;Castilla-La Mancha;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Casado/a;Monoparental;3;2.500 a 2.999 €;1;1;2;0;0;1;0;1;0
+63;Mujer;Comunidad de Madrid;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;No consta;Otros tipos de hogar;4;5.000 € o más;1;1;2;1;0;1;0;1;0
+61;Mujer;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Hogar unipersonal;1;No consta;0;0;0;0;0;1;0;1;1
+47;Mujer;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;Casado/a;Monoparental;4;Menos de 500 €;0;0;0;0;1;0;0;0;0
+47;Mujer;Galicia;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja sin hijos;3;No consta;1;1;2;0;0;0;0;0;0
+51;Hombre;Castilla-La Mancha;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Casado/a;Monoparental;4;3.000 a 4.999 €;1;1;2;0;0;1;0;1;0
+59;Hombre;Canarias;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;0;1;0;0;0;0;0;0
+49;Hombre;Ceuta;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;3.000 a 4.999 €;1;1;2;0;0;1;0;0;0
+40;Mujer;País Vasco;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;5.000 € o más;1;1;2;0;0;1;0;0;0
+59;Hombre;Cataluña;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;No consta;1;0;1;0;0;0;0;0;0
+55;Mujer;Extremadura;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;Menos de 500 €;0;0;0;0;0;1;0;1;0
+62;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Hogar unipersonal;1;Menos de 500 €;1;0;1;0;0;1;0;1;1
+58;Hombre;Melilla;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;No consta;1;1;2;0;0;1;0;1;0
+57;Mujer;Cantabria;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;500 a 999 €;1;1;2;0;0;0;0;0;0
+56;Mujer;Extremadura;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Pareja sin hijos;2;1.500 a 1.999 €;1;1;2;0;0;1;0;1;0
+46;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;Casado/a;Pareja con hijos;2;No consta;0;0;0;1;0;1;1;0;0
+57;Hombre;La Rioja;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;Casado/a;Monoparental;3;2.000 a 2.499 €;1;1;2;0;1;0;0;1;0
+44;Mujer;Baleares;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;1;0;0;0
+30;Hombre;Extremadura;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+60;Hombre;Canarias;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+63;Mujer;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Hogar unipersonal;1;1.000 a 1.499 €;0;0;0;0;0;0;0;0;1
+60;Hombre;Navarra;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;3.000 a 4.999 €;1;0;1;0;0;0;0;0;0
+49;Mujer;Asturias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;1.500 a 1.999 €;1;1;2;0;0;1;0;0;0
+60;Mujer;Castilla-La Mancha;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;1;1;0;1;0;3;Separado/a o Divorciado/a;Otros tipos de hogar;3;Menos de 500 €;1;0;1;1;1;1;1;1;0
+58;Mujer;Galicia;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;1;0;0;1;Casado/a;Otros tipos de hogar;5;No consta;1;1;2;0;0;0;1;1;0
+21;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;6;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+61;Hombre;Asturias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Viudo/a;Hogar unipersonal;1;No consta;1;0;1;0;0;1;0;1;1
+54;Hombre;Comunidad de Madrid;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+34;Hombre;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;4;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+61;Mujer;Baleares;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+55;Mujer;Comunidad de Madrid;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;1;0;1;0
+58;Mujer;Comunidad Valenciana;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Viudo/a;Hogar unipersonal;1;500 a 999 €;1;1;2;0;0;1;0;1;1
+53;Hombre;Navarra;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;2.500 a 2.999 €;0;0;0;0;0;0;0;0;0
+52;Mujer;Región de Murcia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja sin hijos;4;Menos de 500 €;0;0;0;0;0;0;0;0;0
+19;Hombre;Andalucía;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;1;0;1;0;1;3;Soltero/a;Pareja sin hijos;3;500 a 999 €;1;0;1;1;1;1;1;0;0
+43;Hombre;Ceuta;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Viudo/a;Hogar unipersonal;1;No consta;1;0;1;0;0;0;0;0;1
+20;Hombre;Extremadura;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;1;1;0;0;2;Soltero/a;Monoparental;3;5.000 € o más;1;1;2;1;0;0;1;0;0
+60;Mujer;Cataluña;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja sin hijos;3;No consta;1;1;2;0;0;0;0;0;0
+36;Mujer;Comunidad Valenciana;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;500 a 999 €;1;0;1;0;0;1;0;0;0
+43;Mujer;Andalucía;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Casado/a;Monoparental;3;2.500 a 2.999 €;1;1;2;0;0;1;0;0;0
+36;Mujer;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;1;1;0;0;0;2;Soltero/a;Monoparental;4;2.000 a 2.499 €;0;0;0;1;1;0;1;0;0
+63;Mujer;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;Menos de 500 €;1;0;1;0;0;0;0;0;1
+52;Mujer;Canarias;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;2.500 a 2.999 €;1;0;1;0;0;0;0;0;1
+53;Hombre;Comunidad Valenciana;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+64;Mujer;Andalucía;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Hogar unipersonal;1;1.500 a 1.999 €;1;0;1;0;0;0;0;0;1
+59;Hombre;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;No consta;0;0;0;0;0;0;0;0;1
+49;Hombre;Galicia;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;4;5.000 € o más;1;1;2;0;0;0;0;0;0
+46;Hombre;Galicia;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Pareja sin hijos;2;Menos de 500 €;0;0;0;0;0;1;0;0;0
+48;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja sin hijos;3;No consta;1;1;2;0;0;0;0;0;0
+22;Hombre;Comunidad Valenciana;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;5;No consta;1;1;2;0;0;0;0;0;0
+57;Mujer;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;No consta;1;0;1;0;0;1;0;1;0
+60;Hombre;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;No consta;Hogar unipersonal;1;500 a 999 €;1;0;1;1;0;1;1;1;1
+36;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;500 a 999 €;0;0;0;0;0;0;0;0;0
+55;Mujer;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;5;No consta;1;1;2;0;0;1;0;1;0
+29;Mujer;Comunidad de Madrid;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;500 a 999 €;1;1;2;0;0;1;0;0;1
+55;Mujer;Castilla-La Mancha;100.000 a 499.999 hab;No consta;0;Sin grado reconocido / No consta;0;1;1;0;0;0;2;Casado/a;Monoparental;5;No consta;1;1;2;1;1;0;1;1;0
+63;Mujer;Galicia;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja sin hijos;2;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+62;Hombre;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;1.000 a 1.499 €;1;1;2;0;0;1;0;1;0
+48;Mujer;Comunidad Valenciana;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;1.500 a 1.999 €;1;0;1;0;0;0;0;0;1
+40;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+26;Hombre;Canarias;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;0;0;2;Soltero/a;Monoparental;5;No consta;1;0;1;1;0;0;1;0;0
+59;Hombre;Cantabria;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Otros tipos de hogar;2;2.000 a 2.499 €;1;1;2;1;0;1;0;1;0
+45;Hombre;Cataluña;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Pareja sin hijos;3;3.000 a 4.999 €;1;1;2;0;0;0;1;0;0
+59;Mujer;Comunidad de Madrid;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;0;0;0;0;0;1
+51;Hombre;Andalucía;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Pareja con hijos;2;5.000 € o más;1;0;1;1;0;1;0;1;0
+54;Hombre;Andalucía;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+64;Mujer;Galicia;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;No consta;1;1;2;0;0;1;0;1;0
+44;Hombre;Extremadura;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.000 a 1.499 €;1;0;1;0;0;0;0;0;0
+53;Hombre;Comunidad de Madrid;20.000 a 49.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;6;No consta;1;1;2;0;0;0;0;0;0
+30;Hombre;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja con hijos;2;Menos de 500 €;1;1;2;0;0;0;0;0;0
+64;Mujer;La Rioja;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+46;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;1;0;0;0;0;1;Viudo/a;Otros tipos de hogar;3;No consta;0;0;0;0;1;0;0;0;0
+19;Hombre;Aragón;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;1;0;0;1;Soltero/a;Pareja sin hijos;3;Menos de 500 €;1;1;2;0;0;0;1;0;0
+52;Mujer;País Vasco;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja con hijos;2;No consta;1;1;2;0;0;0;0;0;0
+41;Mujer;Andalucía;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Casado/a;Monoparental;4;3.000 a 4.999 €;1;0;1;0;0;0;1;0;0
+47;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;No consta;1;0;1;0;0;0;0;0;1
+50;Mujer;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;4;2.000 a 2.499 €;1;0;1;1;0;1;0;1;0
+55;Mujer;Canarias;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;1.000 a 1.499 €;1;1;2;0;0;0;0;0;1
+64;Mujer;Cantabria;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;5.000 € o más;1;0;1;0;0;1;0;1;0
+41;Hombre;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;3;1.500 a 1.999 €;0;0;0;0;0;0;0;0;0
+50;Hombre;Melilla;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;1;1;0
+33;Hombre;Canarias;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja con hijos;2;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+62;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;3;500 a 999 €;0;0;0;0;0;0;0;0;0
+18;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Monoparental;5;1.500 a 1.999 €;1;1;2;0;0;0;1;0;0
+61;Mujer;Cantabria;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+56;Mujer;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja sin hijos;4;2.000 a 2.499 €;1;1;2;0;0;1;0;1;0
+61;Mujer;Cantabria;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+49;Mujer;Región de Murcia;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;5.000 € o más;1;1;2;0;0;1;0;0;0
+46;Hombre;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;Menos de 500 €;1;0;1;0;0;0;0;0;0
+57;Mujer;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Pareja sin hijos;3;2.000 a 2.499 €;0;0;0;0;0;1;0;1;0
+49;Hombre;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Pareja sin hijos;2;No consta;0;0;0;0;0;1;0;0;0
+26;Hombre;Cataluña;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;5;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+53;Hombre;Asturias;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;5.000 € o más;1;1;2;0;0;0;0;0;0
+63;Mujer;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Viudo/a;Hogar unipersonal;1;No consta;0;0;0;0;0;0;0;0;1
+60;Mujer;Comunidad Valenciana;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;Casado/a;Pareja con hijos;2;2.000 a 2.499 €;1;1;2;1;0;1;1;1;0
+54;Hombre;Andalucía;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;No consta;1;1;2;0;0;1;0;1;0
+36;Mujer;Andalucía;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Pareja con hijos;2;1.000 a 1.499 €;1;1;2;0;0;1;0;0;0
+43;Hombre;Galicia;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+49;Mujer;Castilla-La Mancha;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Monoparental;4;Menos de 500 €;1;1;2;0;0;1;0;0;0
+51;Hombre;Navarra;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;5.000 € o más;1;1;2;0;0;0;0;0;0
+48;Mujer;Aragón;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;2;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+28;Mujer;Cataluña;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja con hijos;2;1.000 a 1.499 €;0;0;0;0;0;0;0;0;0
+57;Mujer;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+46;Mujer;Andalucía;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Casado/a;Monoparental;4;1.500 a 1.999 €;1;0;1;0;0;1;0;0;0
+50;Mujer;Comunidad Valenciana;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Monoparental;4;Menos de 500 €;0;0;0;1;0;1;0;1;0
+40;Mujer;Comunidad Valenciana;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;5;1.000 a 1.499 €;1;1;2;0;0;1;0;0;0
+54;Hombre;Galicia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Monoparental;3;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+60;Mujer;Andalucía;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;Soltero/a;Otros tipos de hogar;2;Menos de 500 €;1;0;1;1;0;1;1;1;0
+56;Mujer;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;1;0;0;0;0;1;Casado/a;Pareja con hijos;2;2.000 a 2.499 €;1;1;2;0;1;0;0;1;0
+60;Hombre;Comunidad Valenciana;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Hogar unipersonal;1;1.000 a 1.499 €;0;0;0;0;0;0;0;0;1
+63;Mujer;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja con hijos;2;No consta;0;0;0;0;0;0;0;0;0
+27;Hombre;Comunidad Valenciana;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Pareja sin hijos;2;1.000 a 1.499 €;0;0;0;0;0;1;0;0;0
+63;Mujer;Comunidad Valenciana;50.000 a 99.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;No consta;1;1;2;0;0;0;0;0;0
+42;Mujer;Galicia;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+57;Mujer;Ceuta;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Separado/a o Divorciado/a;Pareja sin hijos;2;No consta;0;0;0;1;0;1;0;1;0
+47;Hombre;Navarra;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+48;Mujer;Castilla y León;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;3.000 a 4.999 €;1;1;2;0;0;1;0;0;0
+32;Mujer;Castilla y León;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Monoparental;3;1.500 a 1.999 €;1;1;2;1;0;1;1;0;0
+61;Hombre;Región de Murcia;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;0;0;0;0;0;1
+47;Mujer;Comunidad Valenciana;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Viudo/a;Otros tipos de hogar;2;1.000 a 1.499 €;1;1;2;1;0;1;0;0;0
+61;Mujer;Baleares;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;8;No consta;1;1;2;0;0;0;0;0;0
+58;Mujer;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+59;Mujer;Comunidad Valenciana;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+38;Mujer;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Pareja con hijos;2;Menos de 500 €;0;0;0;1;0;1;0;0;0
+57;Hombre;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;5;Menos de 500 €;1;1;2;1;0;1;0;1;0
+52;Mujer;Canarias;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;1;0;1;0;2;Casado/a;Monoparental;3;1.000 a 1.499 €;1;1;2;1;0;1;1;1;0
+51;Mujer;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;5;No consta;1;1;2;0;0;0;0;0;0
+60;Hombre;Canarias;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;Menos de 500 €;1;1;2;0;0;0;0;0;0
+58;Hombre;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Hogar unipersonal;1;1.500 a 1.999 €;1;0;1;0;0;0;0;0;1
+50;Hombre;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;1;0;1;0
+44;Hombre;Comunidad Valenciana;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;3;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+51;Mujer;Extremadura;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Otros tipos de hogar;3;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+60;Hombre;Cataluña;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;0;0;1;0;1;1
+59;Mujer;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Separado/a o Divorciado/a;Otros tipos de hogar;4;Menos de 500 €;1;1;2;0;0;1;0;1;0
+57;Hombre;Comunidad Valenciana;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;500 a 999 €;1;0;1;0;0;0;0;0;1
+35;Mujer;Cantabria;100.000 a 499.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Soltero/a;Monoparental;3;No consta;1;1;2;1;0;1;1;0;0
+36;Hombre;Comunidad de Madrid;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;Menos de 500 €;1;1;2;0;0;0;0;0;1
+62;Hombre;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;1;1;0;0;0;2;Soltero/a;Otros tipos de hogar;3;1.500 a 1.999 €;1;1;2;1;1;0;1;1;0
+61;Hombre;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Casado/a;Monoparental;3;3.000 a 4.999 €;1;1;2;0;0;0;1;1;0
+52;Hombre;Galicia;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Viudo/a;Hogar unipersonal;1;1.000 a 1.499 €;1;1;2;0;0;0;0;0;1
+54;Mujer;Baleares;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;1.000 a 1.499 €;0;0;0;0;0;1;0;1;1
+55;Mujer;Comunidad Valenciana;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja con hijos;2;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+47;Mujer;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Otros tipos de hogar;3;2.000 a 2.499 €;1;0;1;0;0;1;0;0;0
+54;Mujer;Región de Murcia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;0;0;0;0;0;1;0;1;0
+52;Mujer;País Vasco;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;5.000 € o más;1;1;2;0;0;1;0;1;0
+58;Hombre;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Otros tipos de hogar;2;No consta;1;1;2;0;0;1;0;1;0
+57;Mujer;Castilla y León;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;Menos de 500 €;1;1;2;0;0;0;0;0;0
+49;Mujer;Galicia;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Otros tipos de hogar;2;2.000 a 2.499 €;1;0;1;0;0;1;0;0;0
+55;Hombre;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;5.000 € o más;1;1;2;0;0;0;0;0;0
+43;Mujer;Comunidad Valenciana;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Pareja sin hijos;3;5.000 € o más;1;1;2;0;0;0;0;0;0
+54;Mujer;Castilla y León;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;500 a 999 €;0;0;0;0;0;0;0;0;1
+54;Mujer;Extremadura;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Pareja sin hijos;3;Menos de 500 €;1;1;2;0;0;1;0;1;0
+54;Hombre;Comunidad Valenciana;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;1;0;0;0;0;1;Casado/a;Monoparental;4;2.000 a 2.499 €;1;1;2;0;1;0;0;1;0
+33;Hombre;Comunidad Valenciana;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Pareja sin hijos;2;1.000 a 1.499 €;0;0;0;0;0;1;0;0;0
+53;Hombre;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja sin hijos;4;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+63;Hombre;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+24;Mujer;Comunidad de Madrid;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;7;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+38;Hombre;Comunidad Valenciana;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;2.000 a 2.499 €;1;1;2;0;0;1;0;0;0
+16;Mujer;Aragón;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;Soltero/a;Monoparental;4;No consta;1;1;2;0;1;0;0;0;0
+22;Hombre;País Vasco;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Soltero/a;Monoparental;4;No consta;1;1;2;1;0;1;1;0;0
+59;Hombre;Andalucía;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+46;Mujer;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;1;1;0;2;Casado/a;Hogar unipersonal;1;Menos de 500 €;1;0;1;1;0;1;1;0;1
+60;Mujer;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;2.000 a 2.499 €;1;1;2;0;0;1;0;1;0
+54;Mujer;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;500 a 999 €;1;0;1;0;0;0;0;0;0
+61;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;0;0;0;1;0;1;0;1;0
+52;Mujer;Andalucía;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Pareja sin hijos;2;5.000 € o más;1;0;1;0;0;1;0;1;0
+17;Mujer;Melilla;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;6;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+63;Hombre;Asturias;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;3.000 a 4.999 €;1;0;1;0;0;0;0;0;1
+60;Mujer;Castilla y León;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;Casado/a;Hogar unipersonal;1;2.000 a 2.499 €;1;0;1;1;0;1;1;1;1
+51;Mujer;Galicia;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+43;Hombre;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Viudo/a;Hogar unipersonal;1;No consta;1;1;2;0;0;1;0;0;1
+60;Hombre;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Casado/a;Monoparental;3;5.000 € o más;1;1;2;0;0;1;0;1;0
+21;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;0;0;1;1;3;Soltero/a;Monoparental;4;No consta;1;1;2;1;1;1;0;0;0
+62;Hombre;Comunidad Valenciana;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Casado/a;Monoparental;3;2.000 a 2.499 €;1;1;2;0;0;0;1;1;0
+22;Hombre;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;5;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+55;Hombre;Comunidad Valenciana;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;Menos de 500 €;1;1;2;0;0;1;0;1;1
+58;Hombre;País Vasco;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;1;0;2;Soltero/a;Pareja sin hijos;2;2.500 a 2.999 €;0;0;0;1;0;1;1;1;0
+48;Mujer;País Vasco;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;2.000 a 2.499 €;1;1;2;0;0;1;0;0;0
+35;Mujer;Canarias;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Monoparental;4;5.000 € o más;1;1;2;0;0;0;1;0;0
+52;Mujer;Melilla;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Otros tipos de hogar;2;Menos de 500 €;1;0;1;0;0;1;0;1;0
+58;Hombre;País Vasco;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+51;Hombre;Cataluña;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Soltero/a;Pareja sin hijos;2;500 a 999 €;1;0;1;1;0;1;1;1;0
+42;Hombre;Navarra;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;Menos de 500 €;1;1;2;0;0;0;0;0;1
+60;Mujer;La Rioja;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;1;0;0;0;1;0;2;Soltero/a;Hogar unipersonal;1;500 a 999 €;0;0;0;1;1;1;0;1;1
+64;Hombre;Navarra;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+38;Hombre;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;3;2.000 a 2.499 €;1;0;1;0;0;0;0;0;0
+25;Mujer;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja con hijos;2;Menos de 500 €;1;0;1;0;0;0;0;0;0
+55;Hombre;Galicia;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;1;1;0;0;1;0;1;1
+56;Mujer;Castilla y León;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;5;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+38;Hombre;Extremadura;100.000 a 499.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;Soltero/a;Pareja sin hijos;2;1.500 a 1.999 €;1;0;1;1;0;1;1;0;0
+50;Hombre;Extremadura;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Hogar unipersonal;1;Menos de 500 €;0;1;1;0;0;1;0;1;1
+60;Mujer;Comunidad Valenciana;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+58;Mujer;Cataluña;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;1;0;1;1;1;1
+60;Hombre;Andalucía;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+54;Hombre;Asturias;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+62;Mujer;Aragón;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;3.000 a 4.999 €;1;1;2;0;0;1;0;1;0
+50;Hombre;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;500 a 999 €;1;1;2;0;0;0;0;0;0
+57;Mujer;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja sin hijos;2;500 a 999 €;1;0;1;0;0;0;0;0;0
+56;Hombre;Cataluña;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+58;Mujer;Andalucía;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja sin hijos;3;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+18;Mujer;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Pareja sin hijos;2;1.000 a 1.499 €;1;1;2;1;0;1;0;0;0
+40;Hombre;Cantabria;20.000 a 49.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Otros tipos de hogar;3;3.000 a 4.999 €;1;1;2;0;0;0;1;0;0
+59;Mujer;Aragón;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;1;0;1;0;1;0
+52;Mujer;Cataluña;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;1.000 a 1.499 €;1;1;2;0;0;1;0;1;0
+50;Mujer;Castilla-La Mancha;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Pareja sin hijos;2;1.000 a 1.499 €;0;0;0;0;0;0;0;0;0
+17;Hombre;Aragón;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Monoparental;3;3.000 a 4.999 €;1;1;2;1;0;1;1;0;0
+64;Mujer;Andalucía;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+64;Hombre;Cantabria;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+49;Hombre;Andalucía;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;500 a 999 €;1;1;2;0;0;1;0;0;0
+64;Mujer;Andalucía;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Hogar unipersonal;1;Menos de 500 €;1;0;1;0;0;0;0;0;1
+55;Mujer;Andalucía;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;2.500 a 2.999 €;1;1;2;0;0;1;0;1;1
+60;Hombre;Extremadura;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Viudo/a;Otros tipos de hogar;2;Menos de 500 €;0;0;0;0;0;1;0;1;0
+52;Hombre;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;5.000 € o más;0;0;0;0;0;0;0;0;0
+47;Mujer;Cataluña;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+59;Hombre;Castilla y León;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+60;Mujer;Comunidad Valenciana;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;2.000 a 2.499 €;1;0;1;0;0;1;0;1;0
+56;Mujer;Navarra;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;500 a 999 €;0;0;0;0;0;0;0;0;0
+58;Hombre;Asturias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;5.000 € o más;1;1;2;0;0;0;0;0;0
+44;Hombre;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;No consta;1;1;2;0;0;0;0;0;1
+55;Mujer;Galicia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Pareja sin hijos;2;500 a 999 €;0;0;0;0;0;0;0;0;0
+64;Mujer;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Viudo/a;Monoparental;6;No consta;1;1;2;0;0;1;0;1;0
+51;Hombre;Galicia;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;1.500 a 1.999 €;1;0;1;0;0;0;0;0;0
+46;Mujer;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;No consta;1;0;1;0;0;0;0;0;1
+47;Mujer;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;0;0;1;0;2;Casado/a;Monoparental;3;1.500 a 1.999 €;1;1;2;1;1;1;0;0;0
+47;Hombre;Andalucía;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;2.000 a 2.499 €;1;1;2;0;0;1;0;0;0
+60;Mujer;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;No consta;1;0;1;0;0;1;0;1;0
+29;Hombre;Canarias;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+42;Hombre;Cantabria;100.000 a 499.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Monoparental;3;5.000 € o más;0;0;0;1;0;1;1;0;0
+62;Hombre;Cantabria;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Viudo/a;Hogar unipersonal;1;Menos de 500 €;1;0;1;0;0;0;1;1;1
+60;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;Menos de 500 €;1;1;2;0;0;0;0;0;1
+42;Hombre;Andalucía;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;0;0;2;Soltero/a;Pareja sin hijos;3;1.000 a 1.499 €;0;0;0;1;0;0;1;0;0
+22;Hombre;País Vasco;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Pareja sin hijos;2;No consta;1;1;2;0;0;1;0;0;0
+43;Mujer;Castilla y León;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;1;1;1;0;3;No consta;Otros tipos de hogar;6;5.000 € o más;1;1;2;1;0;1;1;0;0
+62;Mujer;Asturias;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;Casado/a;Monoparental;4;No consta;1;1;2;1;0;1;1;1;0
+42;Hombre;Navarra;50.000 a 99.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;0;1;2;Soltero/a;Monoparental;3;No consta;1;1;2;1;0;1;1;0;0
+29;Mujer;Comunidad Valenciana;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Monoparental;5;Menos de 500 €;1;0;1;1;0;1;0;0;0
+33;Hombre;Asturias;Más de 500.000 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;Soltero/a;Pareja sin hijos;5;3.000 a 4.999 €;1;1;2;1;0;1;1;0;0
+54;Hombre;Asturias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;500 a 999 €;1;0;1;0;0;1;0;1;0
+18;Hombre;Comunidad Valenciana;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;4;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+57;Hombre;Aragón;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+62;Mujer;Cataluña;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Pareja sin hijos;2;2.000 a 2.499 €;1;1;2;0;0;1;0;1;0
+58;Hombre;Baleares;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Viudo/a;Hogar unipersonal;1;3.000 a 4.999 €;1;1;2;0;0;1;0;1;1
+46;Hombre;Castilla-La Mancha;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;5;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+62;Mujer;Comunidad Valenciana;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;No consta;1;1;2;0;0;0;0;0;0
+36;Hombre;Melilla;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+44;Hombre;Baleares;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;4;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+63;Hombre;Cantabria;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Hogar unipersonal;1;500 a 999 €;0;0;0;0;0;1;0;1;1
+57;Hombre;Comunidad Valenciana;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Viudo/a;Pareja sin hijos;2;1.500 a 1.999 €;1;1;2;0;0;1;0;1;0
+50;Hombre;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;No consta;0;0;0;0;0;0;0;0;0
+51;Hombre;Comunidad Valenciana;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;Menos de 500 €;0;0;0;0;0;0;0;0;0
+34;Mujer;Ceuta;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;6;1.000 a 1.499 €;1;0;1;0;0;0;0;0;0
+47;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;500 a 999 €;1;0;1;0;0;0;0;0;0
+47;Hombre;Aragón;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Otros tipos de hogar;3;Menos de 500 €;1;0;1;0;0;1;0;0;0
+51;Hombre;Canarias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;4;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+37;Mujer;Asturias;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;1.500 a 1.999 €;1;1;2;0;0;0;0;0;1
+16;Mujer;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;Soltero/a;Monoparental;3;No consta;1;1;2;1;0;1;1;0;0
+54;Hombre;Región de Murcia;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;No consta;1;1;2;0;0;1;0;1;0
+53;Mujer;Cantabria;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+50;Hombre;País Vasco;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Pareja sin hijos;2;1.500 a 1.999 €;0;0;0;0;0;1;0;1;0
+52;Mujer;Galicia;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;1;0;0;0;0;1;Casado/a;Monoparental;4;1.500 a 1.999 €;1;1;2;0;1;0;0;1;0
+46;Mujer;La Rioja;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Casado/a;Pareja con hijos;2;Menos de 500 €;0;1;1;1;0;1;1;0;0
+55;Hombre;Extremadura;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;Menos de 500 €;1;0;1;0;0;1;0;1;0
+51;Mujer;Baleares;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;No consta;1;1;2;0;0;0;0;0;0
+56;Mujer;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;2.000 a 2.499 €;1;1;2;0;0;1;0;1;0
+59;Mujer;Aragón;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;1.000 a 1.499 €;1;0;1;0;0;1;0;1;1
+54;Hombre;Cataluña;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;4;2.000 a 2.499 €;1;1;2;1;0;1;0;1;0
+57;Mujer;Cantabria;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;No consta;Pareja sin hijos;3;1.500 a 1.999 €;0;0;0;0;0;0;1;1;0
+56;Mujer;Comunidad Valenciana;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Pareja sin hijos;2;500 a 999 €;1;1;2;0;0;0;0;0;0
+61;Mujer;Cataluña;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Pareja sin hijos;2;1.500 a 1.999 €;0;0;0;0;0;0;1;1;0
+60;Mujer;Asturias;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Pareja con hijos;2;1.500 a 1.999 €;1;0;1;1;0;1;0;1;0
+61;Hombre;Andalucía;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+63;Mujer;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+64;Hombre;Castilla y León;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;No consta;1;1;2;0;0;0;0;0;1
+45;Mujer;País Vasco;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+50;Mujer;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;Menos de 500 €;1;1;2;0;0;1;0;1;0
+57;Hombre;Asturias;100.000 a 499.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+44;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;1;0;0;1;Casado/a;Pareja con hijos;2;Menos de 500 €;1;1;2;0;0;0;1;0;0
+26;Hombre;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;Soltero/a;Monoparental;3;No consta;1;1;2;0;1;0;0;0;0
+33;Hombre;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;7;No consta;0;0;0;0;0;0;0;0;0
+54;Mujer;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;3.000 a 4.999 €;1;0;1;0;0;1;0;1;0
+58;Hombre;Baleares;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;No consta;1;1;2;0;0;0;0;0;0
+63;Mujer;Andalucía;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Viudo/a;Hogar unipersonal;1;No consta;1;1;2;0;0;0;0;0;1
+59;Mujer;Canarias;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;Soltero/a;Pareja sin hijos;3;1.000 a 1.499 €;1;1;2;1;0;1;1;1;0
+56;Hombre;La Rioja;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+52;Mujer;Asturias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;0;0;0;1;2;Casado/a;Pareja con hijos;2;2.000 a 2.499 €;1;1;2;1;1;1;0;1;0
+60;Hombre;Castilla y León;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;1.500 a 1.999 €;1;0;1;0;0;0;0;0;0
+47;Hombre;País Vasco;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;3;5.000 € o más;1;1;2;1;0;1;0;0;0
+51;Mujer;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;No consta;1;0;1;0;0;0;0;0;0
+54;Hombre;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Casado/a;Monoparental;4;Menos de 500 €;1;1;2;0;0;1;0;1;0
+61;Hombre;Castilla-La Mancha;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;3.000 a 4.999 €;1;0;1;0;0;0;0;0;1
+46;Hombre;Andalucía;50.000 a 99.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Soltero/a;Otros tipos de hogar;3;3.000 a 4.999 €;0;0;0;1;0;1;1;0;0
+62;Hombre;Extremadura;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+48;Mujer;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;1;0;2;Casado/a;Hogar unipersonal;1;500 a 999 €;0;0;0;1;0;1;1;0;1
+54;Hombre;Aragón;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;3;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+55;Mujer;Cataluña;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;No consta;1;1;2;0;0;0;0;0;0
+61;Hombre;Navarra;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Casado/a;Monoparental;3;5.000 € o más;1;1;2;1;0;1;1;1;0
+45;Hombre;Baleares;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;Soltero/a;Pareja sin hijos;2;1.000 a 1.499 €;0;0;0;1;0;1;1;0;0
+57;Mujer;País Vasco;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;3;2.000 a 2.499 €;0;0;0;0;0;0;0;0;0
+60;Mujer;Cantabria;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Hogar unipersonal;1;No consta;1;1;2;0;0;1;0;1;1
+56;Hombre;Galicia;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+63;Mujer;Comunidad de Madrid;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Otros tipos de hogar;2;500 a 999 €;1;0;1;0;0;1;0;1;0
+62;Mujer;Cataluña;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;3.000 a 4.999 €;0;0;0;0;0;0;0;0;0
+51;Mujer;Castilla-La Mancha;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;1;0;0;0;0;1;Casado/a;Pareja con hijos;2;No consta;1;1;2;0;1;0;0;1;0
+42;Mujer;Cataluña;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;5.000 € o más;1;1;2;0;0;0;0;0;0
+40;Hombre;Comunidad Valenciana;20.000 a 49.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;1;0;0;0;0;0;1;Soltero/a;Otros tipos de hogar;3;3.000 a 4.999 €;1;1;2;0;1;0;0;0;0
+64;Hombre;Extremadura;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;1.000 a 1.499 €;1;1;2;0;0;1;0;1;0
+17;Mujer;Comunidad Valenciana;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;Menos de 500 €;1;0;1;0;0;0;0;0;0
+64;Hombre;Castilla-La Mancha;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;1;0;0;0;0;1;2;Soltero/a;Hogar unipersonal;1;No consta;0;0;0;1;1;1;0;1;1
+45;Mujer;Comunidad Valenciana;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+37;Hombre;Asturias;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Pareja sin hijos;2;1.000 a 1.499 €;1;1;2;0;0;0;0;0;0
+34;Hombre;País Vasco;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;0;1;3;Soltero/a;Monoparental;6;1.500 a 1.999 €;1;0;1;1;0;1;1;0;0
+50;Hombre;Región de Murcia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;1;0;0;1;Soltero/a;Otros tipos de hogar;2;1.000 a 1.499 €;1;1;2;0;0;0;1;1;0
+60;Mujer;La Rioja;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;1;0;1;0;2;Casado/a;Pareja con hijos;2;No consta;1;1;2;1;0;1;1;1;0
+46;Hombre;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Otros tipos de hogar;5;2.000 a 2.499 €;1;1;2;0;0;0;0;0;0
+64;Hombre;Baleares;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Hogar unipersonal;1;1.000 a 1.499 €;1;1;2;0;0;1;0;1;1
+50;Mujer;Asturias;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;1;0;1;1;3;Casado/a;Pareja con hijos;2;No consta;1;1;2;1;0;1;1;1;0
+39;Mujer;Comunidad Valenciana;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+27;Hombre;Andalucía;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;1;0;0;1;Soltero/a;Hogar unipersonal;1;1.000 a 1.499 €;1;1;2;0;0;0;1;0;1
+64;Mujer;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Pareja con hijos;2;500 a 999 €;0;0;0;0;0;1;0;1;0
+30;Hombre;Comunidad Valenciana;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;2;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+59;Mujer;La Rioja;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Hogar unipersonal;1;1.000 a 1.499 €;1;1;2;0;0;0;0;0;1
+62;Mujer;Andalucía;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Hogar unipersonal;1;5.000 € o más;1;0;1;0;0;0;0;0;1
+43;Hombre;Cataluña;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;No consta;1;1;2;0;0;1;0;0;0
+58;Hombre;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Otros tipos de hogar;3;1.500 a 1.999 €;1;1;2;0;0;1;0;1;0
+39;Mujer;Cataluña;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;2.500 a 2.999 €;1;1;2;0;0;1;0;0;0
+45;Hombre;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;Menos de 500 €;0;0;0;0;0;0;0;0;1
+32;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Pareja sin hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;1;0;0
+54;Mujer;Cataluña;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Otros tipos de hogar;5;3.000 a 4.999 €;1;0;1;0;0;1;0;1;0
+48;Mujer;Galicia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Pareja sin hijos;2;Menos de 500 €;1;1;2;0;0;1;0;0;0
+56;Mujer;Cantabria;100.000 a 499.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Pareja con hijos;2;5.000 € o más;1;1;2;0;0;0;0;0;0
+20;Mujer;Navarra;50.000 a 99.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Monoparental;4;No consta;1;1;2;1;0;1;0;0;0
+53;Mujer;Andalucía;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;1.000 a 1.499 €;0;0;0;0;0;0;0;0;1
+51;Hombre;Cataluña;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;4;No consta;1;1;2;0;0;0;0;0;0
+64;Mujer;País Vasco;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;No consta;1;1;2;0;0;1;0;1;0
+45;Hombre;Extremadura;10.000 a 19.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Soltero/a;Otros tipos de hogar;6;1.500 a 1.999 €;0;0;0;0;0;1;0;0;0
+21;Mujer;Castilla-La Mancha;10.000 a 19.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Monoparental;4;3.000 a 4.999 €;1;1;2;0;0;0;0;0;0
+64;Hombre;Andalucía;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Viudo/a;Hogar unipersonal;1;500 a 999 €;0;0;0;0;0;1;0;1;1
+19;Hombre;Cantabria;20.000 a 49.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Soltero/a;Pareja sin hijos;3;2.500 a 2.999 €;1;1;2;0;0;1;0;0;0
+51;Mujer;Navarra;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Separado/a o Divorciado/a;Pareja sin hijos;2;1.500 a 1.999 €;1;0;1;1;0;1;0;1;0
+49;Mujer;Baleares;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Soltero/a;Monoparental;3;2.500 a 2.999 €;0;0;0;1;0;1;1;0;0
+36;Hombre;La Rioja;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;2.500 a 2.999 €;1;1;2;0;0;0;0;0;0
+16;Hombre;Región de Murcia;50.000 a 99.999 hab;No consta;0;Sin grado reconocido / No consta;0;0;1;1;1;1;4;Soltero/a;Pareja sin hijos;4;2.000 a 2.499 €;1;1;2;1;0;1;1;0;0
+57;Mujer;Extremadura;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;1;1;Casado/a;Monoparental;4;5.000 € o más;1;1;2;0;0;1;0;1;0
+54;Mujer;Asturias;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;No consta;Pareja sin hijos;2;Menos de 500 €;1;1;2;0;0;1;0;1;0
+56;Hombre;Asturias;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Casado/a;Pareja con hijos;2;3.000 a 4.999 €;1;1;2;0;0;0;1;1;0
+50;Mujer;Cataluña;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Monoparental;4;1.500 a 1.999 €;1;0;1;1;0;1;0;1;0
+27;Mujer;Comunidad Valenciana;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;1;0;0;0;1;Soltero/a;Monoparental;6;No consta;1;1;2;0;0;0;1;0;0
+59;Mujer;Comunidad de Madrid;Más de 500.000 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;5;No consta;1;1;2;0;0;0;0;0;0
+56;Mujer;Cataluña;10.000 a 19.999 hab;Secundaria / Bachillerato;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;No consta;Otros tipos de hogar;5;No consta;1;1;2;0;0;0;0;0;0
+64;Mujer;Andalucía;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Hogar unipersonal;1;No consta;0;0;0;0;0;0;0;0;1
+58;Hombre;Comunidad de Madrid;Más de 500.000 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;3;No consta;1;1;2;0;0;1;0;1;0
+39;Mujer;Galicia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Otros tipos de hogar;3;1.500 a 1.999 €;1;0;1;0;0;0;0;0;0
+60;Mujer;Baleares;10.000 a 19.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Casado/a;Monoparental;3;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+57;Hombre;Andalucía;50.000 a 99.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Soltero/a;Hogar unipersonal;1;No consta;1;1;2;1;0;1;0;1;1
+45;Hombre;Galicia;20.000 a 49.999 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Soltero/a;Hogar unipersonal;1;Menos de 500 €;1;0;1;0;0;0;0;0;1
+44;Mujer;Andalucía;100.000 a 499.999 hab;Formación Profesional;0;Sin grado reconocido / No consta;0;0;0;0;1;0;1;Casado/a;Monoparental;4;500 a 999 €;1;1;2;0;0;1;0;0;0
+55;Mujer;Baleares;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;0;0;0;Separado/a o Divorciado/a;Pareja sin hijos;2;1.500 a 1.999 €;1;1;2;0;0;0;0;0;0
+57;Mujer;Castilla y León;Más de 500.000 hab;Sin estudios / Primaria;0;Sin grado reconocido / No consta;0;0;0;0;1;1;2;Casado/a;Hogar unipersonal;1;Menos de 500 €;1;0;1;1;0;1;0;1;1

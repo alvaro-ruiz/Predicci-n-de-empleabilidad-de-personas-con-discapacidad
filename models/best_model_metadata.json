@@ -1,0 +1,28 @@
+{
+    "nombre_modelo": "RandomForestClassifier",
+    "algoritmo_lider": "7. XGBoost",
+    "mejores_hiperparametros": {
+        "max_depth": "None",
+        "min_samples_leaf": "4",
+        "min_samples_split": "4",
+        "n_estimators": "150"
+    },
+    "cv_roc_auc_media": 0.7529160362667022,
+    "test_metrics_umbral_default": {
+        "roc_auc": 0.7545170660856936,
+        "pr_auc": 0.4760538639817651,
+        "balanced_accuracy": 0.6783442265795208,
+        "f1_score_clase_1": 0.49624060150375937,
+        "f1_score_macro": 0.638821768941113,
+        "precision_clase_1": 0.4024390243902439,
+        "recall_clase_1": 0.6470588235294118
+    },
+    "umbral_optimo": 0.43000000000000005,
+    "test_metrics_umbral_optimo": {
+        "f1_score_clase_1": 0.5125,
+        "f1_score_macro": 0.6167151162790697,
+        "precision_clase_1": 0.3761467889908257,
+        "recall_clase_1": 0.803921568627451,
+        "balanced_accuracy": 0.700479302832244
+    }
+}
